@@ -1,0 +1,540 @@
+[
+ {
+  "id": 100001,
+  "name": "2048",
+  "author": "Gabriele Cirulli",
+  "authorLink": "https://github.com/gabrielecirulli",
+  "path": "games/2048/index.html",
+  "cover": "covers/2048.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/2048/LICENSE.txt",
+  "source": "https://github.com/gabrielecirulli/2048",
+  "sourceCommit": "478b6ec346e3787f589e4af751378d06ded4cbbc",
+  "description": "Slide the tiles and merge matching numbers to reach 2048."
+ },
+ {
+  "id": 100002,
+  "name": "Hextris",
+  "author": "Hextris team",
+  "authorLink": "https://github.com/Hextris",
+  "path": "games/hextris/index.html",
+  "cover": "covers/hextris.png",
+  "special": [
+   "puzzle",
+   "arcade"
+  ],
+  "license": "GPL-3.0",
+  "licenseFile": "games/hextris/LICENSE.md",
+  "source": "https://github.com/Hextris/hextris",
+  "sourceCommit": "3f4847dc8fd7dab3d1c87e6324b9159d92fbd396",
+  "description": "Spin the hexagon to stack falling blocks into matching colors."
+ },
+ {
+  "id": 100003,
+  "name": "Clumsy Bird",
+  "author": "Ellison Leão",
+  "authorLink": "https://github.com/ellisonleao",
+  "path": "games/clumsy-bird/index.html",
+  "cover": "covers/clumsy-bird.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "GPL-3.0",
+  "licenseFile": "games/clumsy-bird/LICENSE.md",
+  "source": "https://github.com/ellisonleao/clumsy-bird",
+  "sourceCommit": "fae3d487d5102af29fb3f78431cbd45e9b83aed3",
+  "description": "Tap to flap through the pipes. How far can you get?"
+ },
+ {
+  "id": 100004,
+  "name": "Racer",
+  "author": "Jake Gordon",
+  "authorLink": "https://github.com/jakesgordon",
+  "path": "games/racer/v4.final.html",
+  "cover": "covers/racer.png",
+  "special": [
+   "racing"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/racer/LICENSE",
+  "source": "https://github.com/jakesgordon/javascript-racer",
+  "sourceCommit": "3e8a060b5900755db27f899612a74a77427c853e",
+  "description": "An old-school arcade road racer with hills, curves and traffic."
+ },
+ {
+  "id": 100005,
+  "name": "Brick Breaker",
+  "author": "Jake Gordon",
+  "authorLink": "https://github.com/jakesgordon",
+  "path": "games/brick-breaker/index.html",
+  "cover": "covers/brick-breaker.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/brick-breaker/LICENSE",
+  "source": "https://github.com/jakesgordon/javascript-breakout",
+  "sourceCommit": "eed59e2affa9423b93d2ac8ff93061bb88b33284",
+  "description": "Bounce the ball to smash every brick."
+ },
+ {
+  "id": 100006,
+  "name": "Paddles",
+  "author": "Jake Gordon",
+  "authorLink": "https://github.com/jakesgordon",
+  "path": "games/paddles/index.html",
+  "cover": "covers/paddles.png",
+  "special": [
+   "arcade",
+   "2 player"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/paddles/LICENSE",
+  "source": "https://github.com/jakesgordon/javascript-pong",
+  "sourceCommit": "ca3240536e4f79ab7144388e56ed19de715b6662",
+  "description": "The classic paddle-and-ball game, against the computer or a friend."
+ },
+ {
+  "id": 100007,
+  "name": "Snakes",
+  "author": "Jake Gordon",
+  "authorLink": "https://github.com/jakesgordon",
+  "path": "games/snakes/index.html",
+  "cover": "covers/snakes.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/snakes/LICENSE",
+  "source": "https://github.com/jakesgordon/javascript-snakes",
+  "sourceCommit": "4ed98daa36d1c219576dabd3e67bc19236ab2b0b",
+  "description": "Eat the food, grow longer, and don't run into yourself."
+ },
+ {
+  "id": 100008,
+  "name": "Delta",
+  "author": "Jake Gordon",
+  "authorLink": "https://github.com/jakesgordon",
+  "path": "games/delta/index.html",
+  "cover": "covers/delta.png",
+  "special": [
+   "shooter"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/delta/LICENSE",
+  "source": "https://github.com/jakesgordon/javascript-delta",
+  "sourceCommit": "ef19b22f9afe7f6054dae3fbf7dc8a4510725c88",
+  "description": "A side-scrolling space shooter."
+ },
+ {
+  "id": 100009,
+  "name": "Tiny Platformer",
+  "author": "Jake Gordon",
+  "authorLink": "https://github.com/jakesgordon",
+  "path": "games/tiny-platformer/index.html",
+  "cover": "covers/tiny-platformer.png",
+  "special": [
+   "platformer"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/tiny-platformer/LICENSE",
+  "source": "https://github.com/jakesgordon/javascript-tiny-platformer",
+  "sourceCommit": "50cbd06c410efe768b7c76f4458387a194130339",
+  "description": "Run, jump and collect the gold in this small platformer."
+ },
+ {
+  "id": 100010,
+  "name": "HexGL",
+  "author": "Thibaut Despoulain",
+  "authorLink": "https://github.com/BKcore",
+  "path": "games/hexgl/index.html",
+  "cover": "covers/hexgl.png",
+  "special": [
+   "racing",
+   "3d"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/hexgl/LICENSE",
+  "source": "https://github.com/BKcore/HexGL",
+  "sourceCommit": "6addc95a2fce3bf05f4d751823cc054c61a16d68",
+  "description": "A futuristic 3D anti-gravity racer."
+ },
+ {
+  "id": 100011,
+  "name": "A Dark Room",
+  "author": "Doublespeak Games",
+  "authorLink": "https://github.com/doublespeakgames",
+  "path": "games/a-dark-room/index.html",
+  "cover": "covers/a-dark-room.png",
+  "special": [
+   "adventure",
+   "idle"
+  ],
+  "license": "MPL-2.0",
+  "licenseFile": "games/a-dark-room/LICENSE.md",
+  "source": "https://github.com/doublespeakgames/adarkroom",
+  "sourceCommit": "1fada4620b6c66bd07bf15a3f1eb8223df8bc1d7",
+  "description": "A minimalist text adventure that grows as you play."
+ },
+ {
+  "id": 100012,
+  "name": "Radius Raid",
+  "author": "Jack Rugile",
+  "authorLink": "https://github.com/jackrugile",
+  "path": "games/radius-raid/index.html",
+  "cover": "covers/radius-raid.png",
+  "special": [
+   "shooter"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/radius-raid/LICENSE.md",
+  "source": "https://github.com/jackrugile/radius-raid-js13k",
+  "sourceCommit": "361ab5166570cfc8a29a4fc15c9afba566117b66",
+  "description": "A fast top-down space shooter. Survive the waves."
+ },
+ {
+  "id": 100013,
+  "name": "Tower Building",
+  "author": "BMQB (iamkun)",
+  "authorLink": "https://github.com/iamkun",
+  "path": "games/tower-building/index.html",
+  "cover": "covers/tower-building.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/tower-building/LICENSE",
+  "source": "https://github.com/iamkun/tower_game",
+  "sourceCommit": "c6fa84afe179b661fa71cf7cc8788d0c47ca2875",
+  "description": "Drop each floor at the right moment to build the tallest tower."
+ },
+ {
+  "id": 100014,
+  "name": "Astray",
+  "author": "Rye Terrell",
+  "authorLink": "https://github.com/wwwtyro",
+  "path": "games/astray/index.html",
+  "cover": "covers/astray.png",
+  "special": [
+   "puzzle",
+   "3d"
+  ],
+  "license": "Unlicense (public domain)",
+  "licenseFile": "games/astray/License.md",
+  "source": "https://github.com/wwwtyro/Astray",
+  "sourceCommit": "d3c4f61f2cbbe35752fbfa205f85a41d7f9fe0f0",
+  "description": "Tilt and roll a ball through a 3D maze."
+ },
+ {
+  "id": 100015,
+  "name": "T-Rex Runner",
+  "author": "The Chromium Authors (packaged by wayou)",
+  "authorLink": "https://github.com/wayou",
+  "path": "games/t-rex-runner/index.html",
+  "cover": "covers/t-rex-runner.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "BSD-3-Clause",
+  "licenseFile": "games/t-rex-runner/LICENSE",
+  "source": "https://github.com/wayou/t-rex-runner",
+  "sourceCommit": "5455bfa408ec6b707c7300ff194b7390733a766d",
+  "description": "Jump over cacti and duck under birds. Press Space to start."
+ },
+ {
+  "id": 100016,
+  "name": "Snake",
+  "author": "Patrick Gillespie",
+  "authorLink": "https://github.com/patorjk",
+  "path": "games/snake/src/index.html",
+  "cover": "covers/snake.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/snake/LICENSE",
+  "source": "https://github.com/patorjk/JavaScript-Snake",
+  "sourceCommit": "7c80eddde2de6af669e6ae5133ba8ae60a8d7fb9",
+  "description": "Classic snake with several difficulty modes."
+ },
+ {
+  "id": 100017,
+  "name": "Elevator Saga",
+  "author": "Magnus Wolffelt",
+  "authorLink": "https://github.com/magwo",
+  "path": "games/elevator-saga/index.html",
+  "cover": "covers/elevator-saga.png",
+  "special": [
+   "coding",
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/elevator-saga/LICENSE.txt",
+  "source": "https://github.com/magwo/elevatorsaga",
+  "sourceCommit": "e0c55bf8cf59243c32dc371b2cc7b2e3ec1664af",
+  "description": "Program elevators in JavaScript to move people as efficiently as possible."
+ },
+ {
+  "id": 100018,
+  "name": "Flexbox Froggy",
+  "author": "Thomas Park",
+  "authorLink": "https://github.com/thomaspark",
+  "path": "games/flexbox-froggy/index.html",
+  "cover": "covers/flexbox-froggy.png",
+  "special": [
+   "coding",
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/flexbox-froggy/LICENSE",
+  "source": "https://github.com/thomaspark/flexboxfroggy",
+  "sourceCommit": "9a6feab850a56cbe9ad90f3afcc95e88335bbec8",
+  "description": "Learn CSS flexbox by guiding frogs to their lily pads."
+ },
+ {
+  "id": 100019,
+  "name": "CSS Diner",
+  "author": "Luke Pacholski",
+  "authorLink": "https://github.com/flukeout",
+  "path": "games/css-diner/index.html",
+  "cover": "covers/css-diner.png",
+  "special": [
+   "coding",
+   "puzzle"
+  ],
+  "license": "MPL-2.0",
+  "licenseFile": "games/css-diner/LICENSE",
+  "source": "https://github.com/flukeout/css-diner",
+  "sourceCommit": "566aaa01314caddc7a9034d793250cf2b8f12a4e",
+  "description": "Learn CSS selectors by picking the right plates and food."
+ },
+ {
+  "id": 100020,
+  "name": "Space Rocks",
+  "author": "Doug McInnes",
+  "authorLink": "https://github.com/dmcinnes",
+  "path": "games/space-rocks/index.html",
+  "cover": "covers/space-rocks.png",
+  "special": [
+   "arcade",
+   "shooter"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/space-rocks/LICENSE",
+  "source": "https://github.com/dmcinnes/HTML5-Asteroids",
+  "sourceCommit": "930301cbda83ed3b120f64b801d937d077ee2da0",
+  "description": "Fly your ship and blast the drifting space rocks."
+ },
+ {
+  "id": 100021,
+  "name": "Captain Rogers",
+  "author": "Enclave Games",
+  "authorLink": "https://github.com/EnclaveGames",
+  "path": "games/captain-rogers/index.html",
+  "cover": "covers/captain-rogers.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "CC BY-NC 4.0",
+  "licenseFile": "games/captain-rogers/LICENSE.txt",
+  "source": "https://github.com/EnclaveGames/Captain-Rogers",
+  "sourceCommit": "5b4336d66828e5688b3bffbc4c4aa8af04598583",
+  "description": "Steer through an asteroid belt and survive as long as you can."
+ },
+ {
+  "id": 100022,
+  "name": "Untrusted",
+  "author": "Alex Nisnevich and Greg Shuflin",
+  "authorLink": "https://github.com/AlexNisnevich/untrusted",
+  "path": "games/untrusted/index.html",
+  "cover": "covers/untrusted.png",
+  "special": [
+   "coding",
+   "puzzle"
+  ],
+  "license": "CC BY-NC-SA 3.0",
+  "source": "https://github.com/AlexNisnevich/untrusted",
+  "sourceCommit": "784deade58e2053385a26a607199476ef36819ec",
+  "description": "Escape each level by editing the game's own JavaScript."
+ },
+ {
+  "id": 100023,
+  "name": "Alien Invasion",
+  "author": "Pascal Rettig (Cykod)",
+  "authorLink": "https://github.com/cykod",
+  "path": "games/alien-invasion/index.html",
+  "cover": "covers/alien-invasion.png",
+  "special": [
+   "shooter"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/cykod/AlienInvasion",
+  "sourceCommit": "d208e3c803c826999aa0592993c3c934dfcc5613",
+  "description": "Defend Earth in this vertical space shooter."
+ },
+ {
+  "id": 100024,
+  "name": "Zop",
+  "author": "Zoli Kahan (Zolmeister)",
+  "authorLink": "https://github.com/Zolmeister",
+  "path": "games/zop/release/index.html",
+  "cover": "covers/zop.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/zop/LICENSE",
+  "source": "https://github.com/Zolmeister/zop",
+  "sourceCommit": "fafaa4751df64634aee48d942062617c21acfb26",
+  "description": "Connect dots of the same color in one swipe."
+ },
+ {
+  "id": 100025,
+  "name": "Avabranch",
+  "author": "Zoli Kahan (Zolmeister)",
+  "authorLink": "https://github.com/Zolmeister",
+  "path": "games/avabranch/docs/index.html",
+  "cover": "covers/avabranch.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/avabranch/LICENSE",
+  "source": "https://github.com/Zolmeister/avabranch",
+  "sourceCommit": "4ab326b4a24d796328963da35c0d8d193d728496",
+  "description": "Steer your branching line and dodge the falling walls."
+ },
+ {
+  "id": 100026,
+  "name": "Starship Sorades",
+  "author": "Thiemo Mättig",
+  "authorLink": "https://github.com/maettig",
+  "path": "games/starship-sorades/index.html",
+  "cover": "covers/starship-sorades.png",
+  "special": [
+   "shooter"
+  ],
+  "license": "CC BY-SA 3.0",
+  "licenseFile": "games/starship-sorades/LICENSE",
+  "source": "https://github.com/maettig/starship-sorades-13k",
+  "sourceCommit": "02acb39d4af5ee85246fadd6996380eb10d98034",
+  "description": "A vertical shoot-'em-up packed into 13 kilobytes."
+ },
+ {
+  "id": 100027,
+  "name": "Parity",
+  "author": "Abe Fehr",
+  "authorLink": "https://github.com/abejfehr",
+  "path": "games/parity/index.html",
+  "cover": "covers/parity.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/parity/LICENSE.txt",
+  "source": "https://github.com/abejfehr/parity",
+  "sourceCommit": "730ecbd24d4cd821bd236f2a441f4e5e2b22654f",
+  "description": "Make every number on the grid the same."
+ },
+ {
+  "id": 100028,
+  "name": "Swap",
+  "author": "Noah Moroze",
+  "authorLink": "https://github.com/nmoroze",
+  "path": "games/swap/index.html",
+  "cover": "covers/swap.png",
+  "special": [
+   "puzzle",
+   "platformer"
+  ],
+  "license": "CC BY-SA 4.0",
+  "licenseFile": "games/swap/LICENSE",
+  "source": "https://github.com/nmoroze/swap",
+  "sourceCommit": "a3cfb7d2d59d37dd3778d5de685a206cca4f1206",
+  "description": "A puzzle platformer about swapping places."
+ },
+ {
+  "id": 100029,
+  "name": "Coil",
+  "author": "Hakim El Hattab",
+  "authorLink": "https://github.com/hakimel",
+  "path": "games/coil/index.html",
+  "cover": "covers/coil.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/coil/LICENSE",
+  "source": "https://github.com/leereilly/Coil",
+  "sourceCommit": "ea6fd3afae10a6d8a53b07e82be4211619206ede",
+  "description": "Draw loops around the enemies to wipe them out."
+ },
+ {
+  "id": 100030,
+  "name": "The House",
+  "author": "Artur Kot",
+  "authorLink": "https://github.com/arturkot",
+  "path": "games/the-house/index.html",
+  "cover": "covers/the-house.png",
+  "special": [
+   "adventure",
+   "3d"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/the-house/LICENSE.md",
+  "source": "https://github.com/arturkot/the-house-game",
+  "sourceCommit": "5b255969cbc5751a3d2768a2c708097c1b8d704c",
+  "description": "A short 3D point-and-click mystery."
+ },
+ {
+  "id": 100031,
+  "name": "Beatrix",
+  "author": "Cong Xu",
+  "authorLink": "https://github.com/cxong",
+  "path": "games/beatrix/index.html",
+  "cover": "covers/beatrix.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/beatrix/LICENSE",
+  "source": "https://github.com/cxong/Beatrix",
+  "sourceCommit": "059b74a3e9d9ec2bffee0a72ba8a53be107fe8b3",
+  "description": "A puzzle game played to a beat."
+ },
+ {
+  "id": 100032,
+  "name": "Save the Forest",
+  "author": "Varun Malhotra",
+  "authorLink": "https://github.com/softvar",
+  "path": "games/save-the-forest/dist/index.html",
+  "cover": "covers/save-the-forest.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/save-the-forest/LICENSE",
+  "source": "https://github.com/softvar/save-the-forest",
+  "sourceCommit": "cd843419a742423446175ea77e9372751978a0e1",
+  "description": "Put out the fires before the forest burns down."
+ },
+ {
+  "id": 100033,
+  "name": "Infectors",
+  "author": "Wil Alvarez",
+  "authorLink": "https://github.com/satanas",
+  "path": "games/infectors/index.html",
+  "cover": "covers/infectors.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseFile": "games/infectors/LICENSE.md",
+  "source": "https://github.com/satanas/infectors",
+  "sourceCommit": "1f0fbdb581eb978a84323a774d1f98f220e18997",
+  "description": "A sliding puzzle about spreading the infection."
+ }
+]
