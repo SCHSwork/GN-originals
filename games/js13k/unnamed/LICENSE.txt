@@ -1,0 +1,5 @@
+tree HEAD:LICENSES
+
+AGPL-3.0-or-later.txt
+CC0-1.0.txt
+GFDL-1.3-only.txt

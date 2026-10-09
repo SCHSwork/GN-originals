@@ -4,7 +4,9 @@ Open-source browser games for [GN 2.0](https://github.com/SCHSwork/math). Every 
 
 GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. They load through jsDelivr, GitHub and githack, like the rest of the site.
 
-## Games (66)
+## Games (66 hand-picked + 626 js13k)
+
+The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS.md](JS13K-CREDITS.md). They're in `games/js13k/`, and GN 2.0 shows them under the **js13k (tiny games)** tag.
 
 | Game | Made by | License | Original source |
 |---|---|---|---|
@@ -103,7 +105,9 @@ Four games are **non-commercial only**:
 - Untrusted (CC BY-NC-SA 3.0)
 - Infectors (CC BY-NC-SA 4.0)
 
-They're fine on GN 2.0 because it is free and shows no ads. If the site ever shows ads or charges money, remove these four.
+Five js13k games are also CC BY-NC-SA; JS13K-CREDITS.md lists their licenses.
+
+These games are fine on GN 2.0 because it is free and shows no ads. If the site ever shows ads or charges money, remove them.
 
 Games under share-alike or GPL licenses (Swap, Starship Sorades, Hextris, Clumsy Bird, Space Huggers, Bounce Back, Trimps, Onslaught Arena, Turkey Cooking Simulator, Lost Beneath the Surface, Untrusted and Infectors) must stay under those same licenses. Keep their license files with them.
 
