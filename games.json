@@ -1527,6 +1527,21 @@
   "licenseFile": "games/js13k/9-lives/LICENSE.txt"
  },
  {
+  "id": 100099,
+  "name": "A-box Invaders",
+  "author": "Felipe Do E. Santo",
+  "authorLink": "https://github.com/js13kGames/a-box-invaders",
+  "path": "games/js13k/a-box-invaders/index.html",
+  "cover": "covers/js13k/a-box-invaders.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "GPL-3.0",
+  "source": "https://github.com/js13kGames/a-box-invaders",
+  "description": "A js13kGames 2017 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/a-box-invaders/LICENSE.txt"
+ },
+ {
   "id": 100100,
   "name": "A Day In The Life",
   "author": "Mattia Fortunati",
@@ -1570,6 +1585,21 @@
   "source": "https://github.com/js13kGames/a-kings-journey-chapter-3-trapped-poisoned",
   "description": "A js13kGames entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/a-kings-journey-chapter-3-trapped-poisoned/LICENSE.txt"
+ },
+ {
+  "id": 100103,
+  "name": "A-Snake",
+  "author": "Nick Frazier",
+  "authorLink": "https://github.com/js13kGames/a-snake",
+  "path": "games/js13k/a-snake/index.html",
+  "cover": "covers/js13k/a-snake.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/a-snake",
+  "description": "A js13kGames 2017 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/a-snake/LICENSE.txt"
  },
  {
   "id": 100104,
@@ -1645,6 +1675,21 @@
   "source": "https://github.com/js13kGames/absorbed",
   "description": "A js13kGames 2021 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/absorbed/LICENSE.txt"
+ },
+ {
+  "id": 100111,
+  "name": "Action Hero Academy Shooting Range",
+  "author": "Chris Hallberg",
+  "authorLink": "https://github.com/js13kGames/action-hero-academy-shooting-range",
+  "path": "games/js13k/action-hero-academy-shooting-range/index.html",
+  "cover": "covers/js13k/action-hero-academy-shooting-range.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/action-hero-academy-shooting-range",
+  "description": "A js13kGames entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/action-hero-academy-shooting-range/LICENSE.txt"
  },
  {
   "id": 100112,
@@ -1735,6 +1780,21 @@
   "source": "https://github.com/js13kGames/alien-spaceship",
   "description": "A js13kGames 2021 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/alien-spaceship/LICENSE.txt"
+ },
+ {
+  "id": 100118,
+  "name": "Alien War begins",
+  "author": "shashanktmk007",
+  "authorLink": "https://github.com/shashanktmk007",
+  "path": "games/js13k/alien-war-begins/index.html",
+  "cover": "covers/js13k/alien-war-begins.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "GPL-3.0",
+  "source": "https://github.com/js13kGames/alien-war-begins",
+  "description": "A js13kGames 2018 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/alien-war-begins/LICENSE.txt"
  },
  {
   "id": 100121,
@@ -1857,6 +1917,21 @@
   "licenseFile": "games/js13k/aquatic-beast-force/LICENSE.txt"
  },
  {
+  "id": 100129,
+  "name": "Area 404 Signal Not Found",
+  "author": "Rene Hangstrup Møller",
+  "authorLink": "https://github.com/js13kGames/area-404-signal-not-found",
+  "path": "games/js13k/area-404-signal-not-found/index.html",
+  "cover": "covers/js13k/area-404-signal-not-found.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/area-404-signal-not-found",
+  "description": "A js13kGames entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/area-404-signal-not-found/LICENSE.txt"
+ },
+ {
   "id": 100130,
   "name": "Arithmetic Hunt",
   "author": "Sergey Chernykh",
@@ -1915,6 +1990,21 @@
   "source": "https://github.com/js13kGames/asteroids-extended",
   "description": "A js13kGames 2021 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/asteroids-extended/LICENSE.txt"
+ },
+ {
+  "id": 100134,
+  "name": "astro-link",
+  "author": "Arcade Badgers",
+  "authorLink": "https://github.com/js13kGames/astro-link",
+  "path": "games/js13k/astro-link/index.html",
+  "cover": "covers/js13k/astro-link.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/astro-link",
+  "description": "A js13kGames 2018 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/astro-link/LICENSE.txt"
  },
  {
   "id": 100135,
@@ -1977,6 +2067,21 @@
   "licenseFile": "games/js13k/azetz/LICENSE.txt"
  },
  {
+  "id": 100139,
+  "name": "Baby Please Come Back Home",
+  "author": "Almar",
+  "authorLink": "https://github.com/js13kGames/baby-please-come-back-home",
+  "path": "games/js13k/baby-please-come-back-home/index.html",
+  "cover": "covers/js13k/baby-please-come-back-home.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/baby-please-come-back-home",
+  "description": "A js13kGames entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/baby-please-come-back-home/LICENSE.txt"
+ },
+ {
   "id": 100141,
   "name": "Back in Dino",
   "author": "Nico Vignola",
@@ -2035,6 +2140,21 @@
   "source": "https://github.com/js13kGames/back-to-game",
   "description": "A js13kGames 2019 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/back-to-game/LICENSE.txt"
+ },
+ {
+  "id": 100145,
+  "name": "Back to Space",
+  "author": "Timmy Kokke",
+  "authorLink": "https://github.com/js13kGames/back-to-space",
+  "path": "games/js13k/back-to-space/index.html",
+  "cover": "covers/js13k/back-to-space.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "Apache-2.0",
+  "source": "https://github.com/js13kGames/back-to-space",
+  "description": "A js13kGames 2019 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/back-to-space/LICENSE.txt"
  },
  {
   "id": 100148,
@@ -2125,6 +2245,21 @@
   "source": "https://github.com/js13kGames/backspace-return-to-planet-figadore",
   "description": "A js13kGames entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/backspace-return-to-planet-figadore/LICENSE.txt"
+ },
+ {
+  "id": 100154,
+  "name": "backstreetsback",
+  "author": "lislis",
+  "authorLink": "https://github.com/js13kGames/backstreetsback",
+  "path": "games/js13k/backstreetsback/index.html",
+  "cover": "covers/js13k/backstreetsback.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/backstreetsback",
+  "description": "A js13kGames 2019 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/backstreetsback/LICENSE.txt"
  },
  {
   "id": 100155,
@@ -2982,6 +3117,21 @@
   "licenseFile": "games/js13k/clash-of-elements/LICENSE.txt"
  },
  {
+  "id": 100220,
+  "name": "CLAWZ",
+  "author": "Fivos DOGANIS",
+  "authorLink": "https://github.com/js13kGames/clawz",
+  "path": "games/js13k/clawz/index.html",
+  "cover": "covers/js13k/clawz.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/clawz",
+  "description": "A js13kGames 2025 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/clawz/LICENSE.txt"
+ },
+ {
   "id": 100221,
   "name": "Click the four element",
   "author": "Robomatix Rebirth",
@@ -2995,6 +3145,21 @@
   "source": "https://github.com/js13kGames/click-the-four-element",
   "description": "A js13kGames 2014 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/click-the-four-element/LICENSE.txt"
+ },
+ {
+  "id": 100222,
+  "name": "COD: Black CAT",
+  "author": "Sorskoot, Timmy Kokke",
+  "authorLink": "https://github.com/js13kGames/cod-black-cat",
+  "path": "games/js13k/cod-black-cat/index.html",
+  "cover": "covers/js13k/cod-black-cat.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/cod-black-cat",
+  "description": "A js13kGames 2025 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/cod-black-cat/LICENSE.txt"
  },
  {
   "id": 100223,
@@ -3100,6 +3265,21 @@
   "source": "https://github.com/js13kGames/connection",
   "description": "A js13kGames 2020 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/connection/LICENSE.txt"
+ },
+ {
+  "id": 100230,
+  "name": "Constellation Wars",
+  "author": "gabboraron",
+  "authorLink": "https://github.com/js13kGames/constellation-wars",
+  "path": "games/js13k/constellation-wars/index.html",
+  "cover": "covers/js13k/constellation-wars.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MPL-2.0",
+  "source": "https://github.com/js13kGames/constellation-wars",
+  "description": "A js13kGames 2021 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/constellation-wars/LICENSE.txt"
  },
  {
   "id": 100231,
@@ -3357,6 +3537,21 @@
   "licenseFile": "games/js13k/dead-again/LICENSE.txt"
  },
  {
+  "id": 100250,
+  "name": "Death And Taxes",
+  "author": "Krzysztof Bociurko",
+  "authorLink": "https://github.com/js13kGames/death-and-taxes",
+  "path": "games/js13k/death-and-taxes/index.html",
+  "cover": "covers/js13k/death-and-taxes.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/death-and-taxes",
+  "description": "A js13kGames 2021 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/death-and-taxes/LICENSE.txt"
+ },
+ {
   "id": 100251,
   "name": "Death Game",
   "author": "Luke Cann",
@@ -3565,6 +3760,21 @@
   "source": "https://github.com/js13kGames/dive-and-pick",
   "description": "A js13kGames 2020 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/dive-and-pick/LICENSE.txt"
+ },
+ {
+  "id": 100267,
+  "name": "Do Not Look Back!",
+  "author": "Jerome Lecomte",
+  "authorLink": "https://github.com/js13kGames/do-not-look-back",
+  "path": "games/js13k/do-not-look-back/index.html",
+  "cover": "covers/js13k/do-not-look-back.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/do-not-look-back",
+  "description": "A js13kGames 2019 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/do-not-look-back/LICENSE.txt"
  },
  {
   "id": 100268,
@@ -3820,6 +4030,21 @@
   "source": "https://github.com/js13kGames/empire-of-sugar",
   "description": "A js13kGames entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/empire-of-sugar/LICENSE.txt"
+ },
+ {
+  "id": 100289,
+  "name": "ENDLESS DEATH",
+  "author": "Dongyun Shin",
+  "authorLink": "https://github.com/dooyeong20",
+  "path": "games/js13k/endless-death/index.html",
+  "cover": "covers/js13k/endless-death.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/endless-death",
+  "description": "A js13kGames 2022 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/endless-death/LICENSE.txt"
  },
  {
   "id": 100290,
@@ -4347,6 +4572,21 @@
   "licenseFile": "games/js13k/flour-oh-flour/LICENSE.txt"
  },
  {
+  "id": 100327,
+  "name": "Flow of Four",
+  "author": "Andras Serfozo",
+  "authorLink": "https://github.com/js13kGames/flow-of-four",
+  "path": "games/js13k/flow-of-four/index.html",
+  "cover": "covers/js13k/flow-of-four.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "Unlicense",
+  "source": "https://github.com/js13kGames/flow-of-four",
+  "description": "A js13kGames 2020 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/flow-of-four/LICENSE.txt"
+ },
+ {
   "id": 100329,
   "name": "Force of Elementals",
   "author": "joinee",
@@ -4555,6 +4795,21 @@
   "source": "https://github.com/js13kGames/garrulus",
   "description": "A js13kGames entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/garrulus/LICENSE.txt"
+ },
+ {
+  "id": 100345,
+  "name": "Gear Of War",
+  "author": "Danilo Pasquariello",
+  "authorLink": "https://github.com/thedart76",
+  "path": "games/js13k/gear-of-war/index.html",
+  "cover": "covers/js13k/gear-of-war.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/gear-of-war",
+  "description": "A js13kGames 2018 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/gear-of-war/LICENSE.txt"
  },
  {
   "id": 100347,
@@ -5202,6 +5457,21 @@
   "licenseFile": "games/js13k/infernal-adolescence/LICENSE.txt"
  },
  {
+  "id": 100397,
+  "name": "Inside Cat",
+  "author": "Randy Tayler",
+  "authorLink": "https://github.com/js13kGames/inside-cat",
+  "path": "games/js13k/inside-cat/index.html",
+  "cover": "covers/js13k/inside-cat.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "CC0",
+  "source": "https://github.com/js13kGames/inside-cat",
+  "description": "A js13kGames 2025 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/inside-cat/LICENSE.txt"
+ },
+ {
   "id": 100398,
   "name": "Internet Quest",
   "author": "Ivan Fonseca",
@@ -5367,6 +5637,21 @@
   "licenseFile": "games/js13k/jetout/LICENSE.txt"
  },
  {
+  "id": 100411,
+  "name": "Johnny Smiter Episode Zero",
+  "author": "Paul Brunt",
+  "authorLink": "https://github.com/js13kGames/johnny-smiter-episode-zero",
+  "path": "games/js13k/johnny-smiter-episode-zero/index.html",
+  "cover": "covers/js13k/johnny-smiter-episode-zero.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "GPL-2.0",
+  "source": "https://github.com/js13kGames/johnny-smiter-episode-zero",
+  "description": "A js13kGames entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/johnny-smiter-episode-zero/LICENSE.txt"
+ },
+ {
   "id": 100412,
   "name": "JunoJS",
   "author": "Robert Kotecki",
@@ -5442,6 +5727,21 @@
   "licenseFile": "games/js13k/kazukis-escape/LICENSE.txt"
  },
  {
+  "id": 100417,
+  "name": "Keep Calm",
+  "author": "Micheal Parks",
+  "authorLink": "https://github.com/js13kGames/keep-calm",
+  "path": "games/js13k/keep-calm/index.html",
+  "cover": "covers/js13k/keep-calm.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/keep-calm",
+  "description": "A js13kGames 2023 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/keep-calm/LICENSE.txt"
+ },
+ {
   "id": 100418,
   "name": "Keep them OFF the LINE",
   "author": "gabboraron",
@@ -5455,6 +5755,21 @@
   "source": "https://github.com/js13kGames/keep-them-off-the-line",
   "description": "A js13kGames 2018 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/keep-them-off-the-line/LICENSE.txt"
+ },
+ {
+  "id": 100419,
+  "name": "Keep'em 404",
+  "author": "Timmy Kokke",
+  "authorLink": "https://github.com/js13kGames/keepem-404",
+  "path": "games/js13k/keepem-404/index.html",
+  "cover": "covers/js13k/keepem-404.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/keepem-404",
+  "description": "A js13kGames 2020 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/keepem-404/LICENSE.txt"
  },
  {
   "id": 100420,
@@ -5500,6 +5815,21 @@
   "source": "https://github.com/js13kGames/kindness-td",
   "description": "A js13kGames entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/kindness-td/LICENSE.txt"
+ },
+ {
+  "id": 100423,
+  "name": "Kittens Crossing",
+  "author": "SamuelVanEgmond",
+  "authorLink": "https://github.com/SamuelVanEgmond",
+  "path": "games/js13k/kittens-crossing/index.html",
+  "cover": "covers/js13k/kittens-crossing.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/kittens-crossing",
+  "description": "A js13kGames 2025 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/kittens-crossing/LICENSE.txt"
  },
  {
   "id": 100424,
@@ -5757,6 +6087,21 @@
   "licenseFile": "games/js13k/lost-in-font/LICENSE.txt"
  },
  {
+  "id": 100444,
+  "name": "Lost in Metaverse",
+  "author": "Karan Ganesan",
+  "authorLink": "https://github.com/js13kGames/lost-in-metaverse",
+  "path": "games/js13k/lost-in-metaverse/index.html",
+  "cover": "covers/js13k/lost-in-metaverse.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/lost-in-metaverse",
+  "description": "A js13kGames 2017 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/lost-in-metaverse/LICENSE.txt"
+ },
+ {
   "id": 100445,
   "name": "Lost in obstacles",
   "author": "Krishnan",
@@ -5965,6 +6310,36 @@
   "source": "https://github.com/js13kGames/mai",
   "description": "A js13kGames 2024 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/mai/LICENSE.txt"
+ },
+ {
+  "id": 100460,
+  "name": "Mane Course",
+  "author": "Alex Lin",
+  "authorLink": "https://github.com/js13kGames/mane-course",
+  "path": "games/js13k/mane-course/index.html",
+  "cover": "covers/js13k/mane-course.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/mane-course",
+  "description": "A js13kGames entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/mane-course/LICENSE.txt"
+ },
+ {
+  "id": 100461,
+  "name": "Marco...?",
+  "author": "lynchbyte",
+  "authorLink": "https://github.com/lynchbyte",
+  "path": "games/js13k/marco/index.html",
+  "cover": "covers/js13k/marco.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/marco",
+  "description": "A js13kGames 2023 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/marco/LICENSE.txt"
  },
  {
   "id": 100462,
@@ -7167,6 +7542,21 @@
   "licenseFile": "games/js13k/polygone-trust-not-found/LICENSE.txt"
  },
  {
+  "id": 100549,
+  "name": "Polyhedron Runner",
+  "author": "Alex Swan",
+  "authorLink": "https://github.com/js13kGames/polyhedron-runner",
+  "path": "games/js13k/polyhedron-runner/index.html",
+  "cover": "covers/js13k/polyhedron-runner.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/polyhedron-runner",
+  "description": "A js13kGames 2017 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/polyhedron-runner/LICENSE.txt"
+ },
+ {
   "id": 100550,
   "name": "Poopicorn",
   "author": "Ryan Malm",
@@ -7330,6 +7720,36 @@
   "source": "https://github.com/js13kGames/pulse",
   "description": "A js13kGames 2016 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/pulse/LICENSE.txt"
+ },
+ {
+  "id": 100562,
+  "name": "purplFLOW",
+  "author": "_primecode",
+  "authorLink": "https://github.com/js13kGames/purplflow",
+  "path": "games/js13k/purplflow/index.html",
+  "cover": "covers/js13k/purplflow.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/purplflow",
+  "description": "A js13kGames 2018 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/purplflow/LICENSE.txt"
+ },
+ {
+  "id": 100563,
+  "name": "Put BACK the toys",
+  "author": "Marc Guinea",
+  "authorLink": "https://github.com/js13kGames/put-back-the-toys",
+  "path": "games/js13k/put-back-the-toys/index.html",
+  "cover": "covers/js13k/put-back-the-toys.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/put-back-the-toys",
+  "description": "A js13kGames 2019 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/put-back-the-toys/LICENSE.txt"
  },
  {
   "id": 100564,
@@ -7510,6 +7930,21 @@
   "source": "https://github.com/js13kGames/rainbow-merge",
   "description": "A js13kGames entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/rainbow-merge/LICENSE.txt"
+ },
+ {
+  "id": 100578,
+  "name": "Rainbow Ranch",
+  "author": "lynchbyte",
+  "authorLink": "https://github.com/lynchbyte",
+  "path": "games/js13k/rainbow-ranch/index.html",
+  "cover": "covers/js13k/rainbow-ranch.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/rainbow-ranch",
+  "description": "A js13kGames 2026 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/rainbow-ranch/LICENSE.txt"
  },
  {
   "id": 100581,
@@ -8082,6 +8517,21 @@
   "licenseFile": "games/js13k/search-of-sounds/LICENSE.txt"
  },
  {
+  "id": 100621,
+  "name": "Server Rider VR",
+  "author": "Donitzo",
+  "authorLink": "https://github.com/Donitzo",
+  "path": "games/js13k/server-rider-vr/index.html",
+  "cover": "covers/js13k/server-rider-vr.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/server-rider-vr",
+  "description": "A js13kGames 2020 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/server-rider-vr/LICENSE.txt"
+ },
+ {
   "id": 100622,
   "name": "Service Provider",
   "author": "Kamil Sacewicz",
@@ -8157,6 +8607,21 @@
   "licenseFile": "games/js13k/shield-maiden/LICENSE.txt"
  },
  {
+  "id": 100628,
+  "name": "Shifted Dimensions",
+  "author": "Tom Brewe",
+  "authorLink": "https://github.com/js13kGames/shifted-dimensions",
+  "path": "games/js13k/shifted-dimensions/index.html",
+  "cover": "covers/js13k/shifted-dimensions.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/shifted-dimensions",
+  "description": "A js13kGames 2017 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/shifted-dimensions/LICENSE.txt"
+ },
+ {
   "id": 100629,
   "name": "Shikken",
   "author": "Luke Nickerson / Deathray Games",
@@ -8230,6 +8695,21 @@
   "source": "https://github.com/js13kGames/silly-goose-and-moose",
   "description": "A js13kGames 2014 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/silly-goose-and-moose/LICENSE.txt"
+ },
+ {
+  "id": 100634,
+  "name": "Sir Coadalot And The Holy Grail",
+  "author": "Matt McKenna",
+  "authorLink": "https://github.com/NikLever",
+  "path": "games/js13k/sir-coadalot-and-the-holy-grail/index.html",
+  "cover": "covers/js13k/sir-coadalot-and-the-holy-grail.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/sir-coadalot-and-the-holy-grail",
+  "description": "A js13kGames entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/sir-coadalot-and-the-holy-grail/LICENSE.txt"
  },
  {
   "id": 100635,
@@ -8487,6 +8967,21 @@
   "licenseFile": "games/js13k/space-tribute/LICENSE.txt"
  },
  {
+  "id": 100653,
+  "name": "SpaceDucts!",
+  "author": "ickack",
+  "authorLink": "https://github.com/ickack",
+  "path": "games/js13k/spaceducts/index.html",
+  "cover": "covers/js13k/spaceducts.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/spaceducts",
+  "description": "A js13kGames 2018 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/spaceducts/LICENSE.txt"
+ },
+ {
   "id": 100654,
   "name": "SPACETAXI",
   "author": "Christoph Schansky",
@@ -8500,6 +8995,21 @@
   "source": "https://github.com/js13kGames/spacetaxi",
   "description": "A js13kGames 2021 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/spacetaxi/LICENSE.txt"
+ },
+ {
+  "id": 100655,
+  "name": "Spacewrecked",
+  "author": "Timmy Kokke",
+  "authorLink": "https://github.com/js13kGames/spacewrecked",
+  "path": "games/js13k/spacewrecked/index.html",
+  "cover": "covers/js13k/spacewrecked.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/spacewrecked",
+  "description": "A js13kGames 2017 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/spacewrecked/LICENSE.txt"
  },
  {
   "id": 100656,
@@ -8697,6 +9207,21 @@
   "licenseFile": "games/js13k/stay-safe/LICENSE.txt"
  },
  {
+  "id": 100669,
+  "name": "Steamshot 13",
+  "author": "Matt McKenna",
+  "authorLink": "https://github.com/NikLever",
+  "path": "games/js13k/steamshot-13/index.html",
+  "cover": "covers/js13k/steamshot-13.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/steamshot-13",
+  "description": "A js13kGames 2024 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/steamshot-13/LICENSE.txt"
+ },
+ {
   "id": 100670,
   "name": "Stolen Sword",
   "author": "Ian Chiao",
@@ -8757,6 +9282,21 @@
   "licenseFile": "games/js13k/sum-it-up/LICENSE.txt"
  },
  {
+  "id": 100675,
+  "name": "Sunset Stars",
+  "author": "lynchbyte",
+  "authorLink": "https://github.com/lynchbyte",
+  "path": "games/js13k/sunset-stars/index.html",
+  "cover": "covers/js13k/sunset-stars.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/sunset-stars",
+  "description": "A js13kGames 2021 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/sunset-stars/LICENSE.txt"
+ },
+ {
   "id": 100676,
   "name": "Sunshine Golf Classic",
   "author": "Frank Force",
@@ -8770,6 +9310,21 @@
   "source": "https://github.com/js13kGames/sunshine-golf-classic",
   "description": "A js13kGames entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/sunshine-golf-classic/LICENSE.txt"
+ },
+ {
+  "id": 100677,
+  "name": "SUP3RFR1GHT VR",
+  "author": "Jerome Lecomte",
+  "authorLink": "https://github.com/js13kGames/sup3rfr1ght-vr",
+  "path": "games/js13k/sup3rfr1ght-vr/index.html",
+  "cover": "covers/js13k/sup3rfr1ght-vr.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/sup3rfr1ght-vr",
+  "description": "A js13kGames 2024 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/sup3rfr1ght-vr/LICENSE.txt"
  },
  {
   "id": 100678,
@@ -9102,6 +9657,21 @@
   "licenseFile": "games/js13k/the-horde-the-horde-the-horde/LICENSE.txt"
  },
  {
+  "id": 100705,
+  "name": "The King's Crowns",
+  "author": "Samuel Van Egmond",
+  "authorLink": "https://github.com/SamuelVanEgmond",
+  "path": "games/js13k/the-kings-crowns/index.html",
+  "cover": "covers/js13k/the-kings-crowns.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/the-kings-crowns",
+  "description": "A js13kGames 2024 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/the-kings-crowns/LICENSE.txt"
+ },
+ {
   "id": 100706,
   "name": "The Last Spartan",
   "author": "Michael Ferron",
@@ -9115,6 +9685,21 @@
   "source": "https://github.com/js13kGames/the-last-spartan",
   "description": "A js13kGames 2020 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/the-last-spartan/LICENSE.txt"
+ },
+ {
+  "id": 100707,
+  "name": "The Line",
+  "author": "Juan Carlos",
+  "authorLink": "https://github.com/js13kGames/the-line",
+  "path": "games/js13k/the-line/index.html",
+  "cover": "covers/js13k/the-line.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/the-line",
+  "description": "A js13kGames 2018 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/the-line/LICENSE.txt"
  },
  {
   "id": 100708,
@@ -9417,6 +10002,21 @@
   "licenseFile": "games/js13k/thirteens-everywhere/LICENSE.txt"
  },
  {
+  "id": 100730,
+  "name": "Tic Tac Woe",
+  "author": "- Shauna Lynch",
+  "authorLink": "https://github.com/lynchbyte",
+  "path": "games/js13k/tic-tac-woe/index.html",
+  "cover": "covers/js13k/tic-tac-woe.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/tic-tac-woe",
+  "description": "A js13kGames 2022 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/tic-tac-woe/LICENSE.txt"
+ },
+ {
   "id": 100731,
   "name": "Tide of the templars",
   "author": "Veronika Milic and Alberto Acuña Gallego",
@@ -9565,6 +10165,21 @@
   "source": "https://github.com/js13kGames/triskaidekapotamus",
   "description": "A js13kGames 2024 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/triskaidekapotamus/LICENSE.txt"
+ },
+ {
+  "id": 100741,
+  "name": "Triskatopia",
+  "author": "lynchbyte",
+  "authorLink": "https://github.com/lynchbyte",
+  "path": "games/js13k/triskatopia/index.html",
+  "cover": "covers/js13k/triskatopia.jpg",
+  "special": [
+   "js13k"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/js13kGames/triskatopia",
+  "description": "A js13kGames 2024 entry: the whole game fits in 13 KB.",
+  "licenseFile": "games/js13k/triskatopia/LICENSE.txt"
  },
  {
   "id": 100742,

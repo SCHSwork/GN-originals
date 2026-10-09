@@ -4,7 +4,7 @@ Open-source browser games for [GN 2.0](https://github.com/SCHSwork/math). Every 
 
 GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. They load through jsDelivr, GitHub and githack, like the rest of the site.
 
-## Games (66 hand-picked + 626 js13k)
+## Games (66 hand-picked + 667 js13k)
 
 The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS.md](JS13K-CREDITS.md). They're in `games/js13k/`, and GN 2.0 shows them under the **js13k (tiny games)** tag.
 

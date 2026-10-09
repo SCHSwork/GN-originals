@@ -1,8 +1,8 @@
 # js13kGames credits
 
-626 games from the [js13kGames](https://js13kgames.com) competition, where the whole game has to fit in 13 KB. They come from js13kGames' archive of entries ([js13kGames/games](https://github.com/js13kGames/games)).
+667 games from the [js13kGames](https://js13kgames.com) competition, where the whole game has to fit in 13 KB. They come from js13kGames' archive of entries ([js13kGames/games](https://github.com/js13kGames/games)).
 
-Only entries whose source repo has an open license are included, and that license is saved as `LICENSE.txt` in each game's folder. A further 113 licensed entries were left out because they didn't run in GN 2.0's player. Most of those need shared 3D libraries from js13k's own server, or a multiplayer server.
+Only entries whose source repo has an open license are included, and that license is saved as `LICENSE.txt` in each game's folder. 41 of those are WebXR/3D games that load A-Frame or three.js from js13k's server; GN 2.0 hosts those libraries itself in `games/js13k/_webxr/` (see the README there). A further 72 licensed entries were left out because they still didn't run in GN 2.0's player (mostly Babylon.js or PlayCanvas games, or games that need a multiplayer server or online service).
 
 | Game | Made by | License | Source |
 |---|---|---|---|
@@ -42,15 +42,19 @@ Only entries whose source repo has an open license are included, and that licens
 | A Kings Journey Chapter 3 Trapped Poisoned | [Alif Harsan Pradipto](https://github.com/js13kGames/a-kings-journey-chapter-3-trapped-poisoned) | GPL-3.0 | [js13kGames/a-kings-journey-chapter-3-trapped-poisoned](https://github.com/js13kGames/a-kings-journey-chapter-3-trapped-poisoned) |
 | A Tourist in Paris | [Jerome Lecomte](https://github.com/js13kGames/a-tourist-in-paris) | MIT | [js13kGames/a-tourist-in-paris](https://github.com/js13kGames/a-tourist-in-paris) |
 | A Voiding Your Problems | [Attila Horváth](https://github.com/js13kGames/a-voiding-your-problems) | MIT | [js13kGames/a-voiding-your-problems](https://github.com/js13kGames/a-voiding-your-problems) |
+| A-box Invaders | [Felipe Do E. Santo](https://github.com/js13kGames/a-box-invaders) | GPL-3.0 | [js13kGames/a-box-invaders](https://github.com/js13kGames/a-box-invaders) |
+| A-Snake | [Nick Frazier](https://github.com/js13kGames/a-snake) | MIT | [js13kGames/a-snake](https://github.com/js13kGames/a-snake) |
 | A0A | [eguneys](https://github.com/js13kGames/a0a) | MIT | [js13kGames/a0a](https://github.com/js13kGames/a0a) |
 | Aargh Triskaideka Attacks | [Christoph Schansky](https://github.com/js13kGames/aargh-triskaideka-attacks) | MIT | [js13kGames/aargh-triskaideka-attacks](https://github.com/js13kGames/aargh-triskaideka-attacks) |
 | Absorbed | [Matt McKenna](https://github.com/js13kGames/absorbed) | MIT | [js13kGames/absorbed](https://github.com/js13kGames/absorbed) |
+| Action Hero Academy Shooting Range | [Chris Hallberg](https://github.com/js13kGames/action-hero-academy-shooting-range) | MIT | [js13kGames/action-hero-academy-shooting-range](https://github.com/js13kGames/action-hero-academy-shooting-range) |
 | Admiral Schiffchen | [bytecombo](https://github.com/js13kGames/admiral-schiffchen) | MIT | [js13kGames/admiral-schiffchen](https://github.com/js13kGames/admiral-schiffchen) |
 | Aelbahkat The Lost Islands | [Luke Nickerson](https://github.com/Lukenickerson) | MIT | [js13kGames/aelbahkat-the-lost-islands](https://github.com/js13kGames/aelbahkat-the-lost-islands) |
 | Afterlife | [Stanisław Małolepszy](https://github.com/js13kGames/afterlife) | ISC | [js13kGames/afterlife](https://github.com/js13kGames/afterlife) |
 | AI, Begone! | [Platane](https://github.com/js13kGames/ai-begone) | MIT | [js13kGames/ai-begone](https://github.com/js13kGames/ai-begone) |
 | Airspace Alpha Zulu | [Jasper Renow-Clarke](https://github.com/js13kGames/airspace-alpha-zulu) | MIT | [js13kGames/airspace-alpha-zulu](https://github.com/js13kGames/airspace-alpha-zulu) |
 | Alien Spaceship | [Johan Strydom](https://github.com/js13kGames/alien-spaceship) | GPL-3.0 | [js13kGames/alien-spaceship](https://github.com/js13kGames/alien-spaceship) |
+| Alien War begins | [shashanktmk007](https://github.com/shashanktmk007) | GPL-3.0 | [js13kGames/alien-war-begins](https://github.com/js13kGames/alien-war-begins) |
 | An Offline Life | [André Jaenisch](https://github.com/js13kGames/an-offline-life) | GPL-3.0 | [js13kGames/an-offline-life](https://github.com/js13kGames/an-offline-life) |
 | And then it was gone | [Sebastian Dorn](https://github.com/js13kGames/and-then-it-was-gone) | MIT | [js13kGames/and-then-it-was-gone](https://github.com/js13kGames/and-then-it-was-gone) |
 | angle | [Bob Hwang](https://github.com/js13kGames/angle) | MIT | [js13kGames/angle](https://github.com/js13kGames/angle) |
@@ -59,24 +63,29 @@ Only entries whose source repo has an open license are included, and that licens
 | ap11 | [aurhe](https://github.com/js13kGames/ap11) | GPL-3.0 | [js13kGames/ap11](https://github.com/js13kGames/ap11) |
 | Apollo-13kb | [Morph games](https://github.com/Lukenickerson) | MIT | [js13kGames/apollo-13kb](https://github.com/js13kGames/apollo-13kb) |
 | Aquatic Beast Force | [Thunraz](https://github.com/js13kGames/aquatic-beast-force) | Unlicense | [js13kGames/aquatic-beast-force](https://github.com/js13kGames/aquatic-beast-force) |
+| Area 404 Signal Not Found | [Rene Hangstrup Møller](https://github.com/js13kGames/area-404-signal-not-found) | MIT | [js13kGames/area-404-signal-not-found](https://github.com/js13kGames/area-404-signal-not-found) |
 | Arithmetic Hunt | [Sergey Chernykh](https://github.com/js13kGames/arithmetic-hunt) | MIT | [js13kGames/arithmetic-hunt](https://github.com/js13kGames/arithmetic-hunt) |
 | asdf | [Tim Pietrusky](https://github.com/js13kGames/asdf) | MIT | [js13kGames/asdf](https://github.com/js13kGames/asdf) |
 | Assault on City 13 | [Bob_Game](https://github.com/js13kGames/assault-on-city-13) | MIT | [js13kGames/assault-on-city-13](https://github.com/js13kGames/assault-on-city-13) |
 | Asteroids Extended | [Christian Paul](https://github.com/js13kGames/asteroids-extended) | MIT | [js13kGames/asteroids-extended](https://github.com/js13kGames/asteroids-extended) |
+| astro-link | [Arcade Badgers](https://github.com/js13kGames/astro-link) | MIT | [js13kGames/astro-link](https://github.com/js13kGames/astro-link) |
 | At Journey's End | [Todd Conley](https://github.com/js13kGames/at-journeys-end) | GPL-3.0 | [js13kGames/at-journeys-end](https://github.com/js13kGames/at-journeys-end) |
 | AUD13ND | [Mike Helgeson](https://github.com/js13kGames/aud13nd) | MIT | [js13kGames/aud13nd](https://github.com/js13kGames/aud13nd) |
 | Audio Dash | [Steven Lambert](https://github.com/js13kGames/audio-dash) | MIT | [js13kGames/audio-dash](https://github.com/js13kGames/audio-dash) |
 | Azetz | [Guillermo Gonzalez](https://github.com/js13kGames/azetz) | Apache-2.0 | [js13kGames/azetz](https://github.com/js13kGames/azetz) |
+| Baby Please Come Back Home | [Almar](https://github.com/js13kGames/baby-please-come-back-home) | MIT | [js13kGames/baby-please-come-back-home](https://github.com/js13kGames/baby-please-come-back-home) |
 | Back in Dino | [Nico Vignola](https://github.com/js13kGames/back-in-dino) | GPL-3.0 | [js13kGames/back-in-dino](https://github.com/js13kGames/back-in-dino) |
 | Back to Bathroom | [perdugames](https://github.com/js13kGames/back-to-bathroom) | GPL-3.0 | [js13kGames/back-to-bathroom](https://github.com/js13kGames/back-to-bathroom) |
 | back to exploration | [Diego Cardoso](https://github.com/js13kGames/back-to-exploration) | MIT | [js13kGames/back-to-exploration](https://github.com/js13kGames/back-to-exploration) |
 | Back to Game | [Célio Ighour de Castro Rodrigues](https://github.com/js13kGames/back-to-game) | MIT | [js13kGames/back-to-game](https://github.com/js13kGames/back-to-game) |
+| Back to Space | [Timmy Kokke](https://github.com/js13kGames/back-to-space) | Apache-2.0 | [js13kGames/back-to-space](https://github.com/js13kGames/back-to-space) |
 | Backbeat | [razh](https://github.com/razh) | MIT | [js13kGames/backbeat](https://github.com/js13kGames/backbeat) |
 | Backcountry | [Staś Małolepszy](https://github.com/js13kGames/backcountry) | ISC | [js13kGames/backcountry](https://github.com/js13kGames/backcountry) |
 | BackFlipped | [Tom Hermans](https://github.com/Auroriax) | MIT | [js13kGames/backflipped](https://github.com/js13kGames/backflipped) |
 | Backout | [eguneys](https://github.com/js13kGames/backout) | MIT | [js13kGames/backout](https://github.com/js13kGames/backout) |
 | Backshooter | [eguneys](https://github.com/js13kGames/backshooter) | MIT | [js13kGames/backshooter](https://github.com/js13kGames/backshooter) |
 | Backspace Return To Planet Figadore | [Jasper Renow-Clarke](https://github.com/js13kGames/backspace-return-to-planet-figadore) | MIT | [js13kGames/backspace-return-to-planet-figadore](https://github.com/js13kGames/backspace-return-to-planet-figadore) |
+| backstreetsback | [lislis](https://github.com/js13kGames/backstreetsback) | MIT | [js13kGames/backstreetsback](https://github.com/js13kGames/backstreetsback) |
 | Barbenheim 13 | [Rene Hangstrup Møller](https://github.com/js13kGames/barbenheim-13) | MIT | [js13kGames/barbenheim-13](https://github.com/js13kGames/barbenheim-13) |
 | Bee / B / 13 | [Albert Arvidsson](https://github.com/js13kGames/bee-b-13) | MIT | [js13kGames/bee-b-13](https://github.com/js13kGames/bee-b-13) |
 | Bee Kind | [Jasper Renow-Clarke](https://github.com/js13kGames/bee-kind) | MIT | [js13kGames/bee-kind](https://github.com/js13kGames/bee-kind) |
@@ -134,13 +143,16 @@ Only entries whose source repo has an open license are included, and that licens
 | Chicken on a Line | [Martin Hentschel](https://github.com/js13kGames/chicken-on-a-line) | MIT | [js13kGames/chicken-on-a-line](https://github.com/js13kGames/chicken-on-a-line) |
 | City of Lost Drones | [Igor Khotin](https://github.com/js13kGames/city-of-lost-drones) | Apache-2.0 | [js13kGames/city-of-lost-drones](https://github.com/js13kGames/city-of-lost-drones) |
 | Clash Of Elements | [Administrator](https://github.com/js13kGames/clash-of-elements) | GPL-2.0 | [js13kGames/clash-of-elements](https://github.com/js13kGames/clash-of-elements) |
+| CLAWZ | [Fivos DOGANIS](https://github.com/js13kGames/clawz) | MIT | [js13kGames/clawz](https://github.com/js13kGames/clawz) |
 | Click the four element | [Robomatix Rebirth](https://github.com/js13kGames/click-the-four-element) | LGPL | [js13kGames/click-the-four-element](https://github.com/js13kGames/click-the-four-element) |
+| COD: Black CAT | [Sorskoot, Timmy Kokke](https://github.com/js13kGames/cod-black-cat) | MIT | [js13kGames/cod-black-cat](https://github.com/js13kGames/cod-black-cat) |
 | Coding Golf Broken Links | [Jasper Renow-Clarke](https://github.com/js13kGames/coding-golf-broken-links) | MIT | [js13kGames/coding-golf-broken-links](https://github.com/js13kGames/coding-golf-broken-links) |
 | Coler | [eguneys](https://github.com/js13kGames/coler) | MIT | [js13kGames/coler](https://github.com/js13kGames/coler) |
 | Color Thief | [Konstandinos Makaronas](https://github.com/js13kGames/color-thief) | MIT | [js13kGames/color-thief](https://github.com/js13kGames/color-thief) |
 | Comeback | [Albert Cámara](https://github.com/js13kGames/comeback) | MIT | [js13kGames/comeback](https://github.com/js13kGames/comeback) |
 | Complicit | [unknown](https://github.com/js13kGames/complicit) | Unlicense | [js13kGames/complicit](https://github.com/js13kGames/complicit) |
 | Connection | [Federico Tibaldo](https://github.com/js13kGames/connection) | GPL-3.0 | [js13kGames/connection](https://github.com/js13kGames/connection) |
+| Constellation Wars | [gabboraron](https://github.com/js13kGames/constellation-wars) | MPL-2.0 | [js13kGames/constellation-wars](https://github.com/js13kGames/constellation-wars) |
 | Control | [Logan Franken](https://github.com/js13kGames/control) | MIT | [js13kGames/control](https://github.com/js13kGames/control) |
 | Convo IRL | [Matt McKenna](https://github.com/js13kGames/convo-irl) | MIT | [js13kGames/convo-irl](https://github.com/js13kGames/convo-irl) |
 | Cooler | [eguneys](https://github.com/js13kGames/cooler) | MIT | [js13kGames/cooler](https://github.com/js13kGames/cooler) |
@@ -158,6 +170,7 @@ Only entries whose source repo has an open license are included, and that licens
 | data_center | [Zac Garby](https://github.com/js13kGames/datacenter) | MIT | [js13kGames/datacenter](https://github.com/js13kGames/datacenter) |
 | Dawn Breaker | [Roger Qi](https://github.com/js13kGames/dawn-breaker) | MIT | [js13kGames/dawn-breaker](https://github.com/js13kGames/dawn-breaker) |
 | DEAD AGAIN | [Jonas Olmstead and Jesper Rasmussen](https://github.com/js13kGames/dead-again) | MIT | [js13kGames/dead-again](https://github.com/js13kGames/dead-again) |
+| Death And Taxes | [Krzysztof Bociurko](https://github.com/js13kGames/death-and-taxes) | MIT | [js13kGames/death-and-taxes](https://github.com/js13kGames/death-and-taxes) |
 | Death Game | [Luke Cann](https://github.com/js13kGames/death-game) | MIT | [js13kGames/death-game](https://github.com/js13kGames/death-game) |
 | Death Rider | [Csaba Csecskedi](https://github.com/js13kGames/death-rider) | MIT | [js13kGames/death-rider](https://github.com/js13kGames/death-rider) |
 | Death's Apprentice | [Christoph Schansky](https://github.com/js13kGames/deaths-apprentice) | GPL-3.0 | [js13kGames/deaths-apprentice](https://github.com/js13kGames/deaths-apprentice) |
@@ -172,6 +185,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Digger | [Floriaen](https://github.com/js13kGames/digger) | MIT | [js13kGames/digger](https://github.com/js13kGames/digger) |
 | distant | [bsenst](https://github.com/js13kGames/distant) | MIT | [js13kGames/distant](https://github.com/js13kGames/distant) |
 | Dive and Pick | [lpagg](https://github.com/js13kGames/dive-and-pick) | MIT | [js13kGames/dive-and-pick](https://github.com/js13kGames/dive-and-pick) |
+| Do Not Look Back! | [Jerome Lecomte](https://github.com/js13kGames/do-not-look-back) | MIT | [js13kGames/do-not-look-back](https://github.com/js13kGames/do-not-look-back) |
 | Do Not Make 13 | [Pim Schreurs](https://github.com/js13kGames/do-not-make-13) | MIT | [js13kGames/do-not-make-13](https://github.com/js13kGames/do-not-make-13) |
 | Dodos Escaping From Extinction | [Aurélio A. Heckert](https://github.com/js13kGames/dodos-escaping-from-extinction) | GPL-3.0 | [js13kGames/dodos-escaping-from-extinction](https://github.com/js13kGames/dodos-escaping-from-extinction) |
 | Domination | [Royyan Bachtiar](https://github.com/js13kGames/domination) | MIT | [js13kGames/domination](https://github.com/js13kGames/domination) |
@@ -188,6 +202,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Elemental Stone | [Alejandro Chavarría](https://github.com/js13kGames/elemental-stone) | MIT | [js13kGames/elemental-stone](https://github.com/js13kGames/elemental-stone) |
 | Elemental Vanguard | [Stephen Murray](https://github.com/js13kGames/elemental-vanguard) | MIT | [js13kGames/elemental-vanguard](https://github.com/js13kGames/elemental-vanguard) |
 | Empire of Sugar | [Almut Kieffer-Jones](https://github.com/js13kGames/empire-of-sugar) | MIT | [js13kGames/empire-of-sugar](https://github.com/js13kGames/empire-of-sugar) |
+| ENDLESS DEATH | [Dongyun Shin](https://github.com/dooyeong20) | MIT | [js13kGames/endless-death](https://github.com/js13kGames/endless-death) |
 | Energy Drink | [Antonio Raventós](https://github.com/js13kGames/energy-drink) | MIT | [js13kGames/energy-drink](https://github.com/js13kGames/energy-drink) |
 | Enmeshed | [Mark Barr](https://github.com/js13kGames/enmeshed) | MIT | [js13kGames/enmeshed](https://github.com/js13kGames/enmeshed) |
 | Entangolf | [Matt McKenna](https://github.com/js13kGames/entangolf) | MIT | [js13kGames/entangolf](https://github.com/js13kGames/entangolf) |
@@ -223,6 +238,7 @@ Only entries whose source repo has an open license are included, and that licens
 | flip-flop | [Frank Mitchell](https://github.com/js13kGames/flip-flop) | MIT | [js13kGames/flip-flop](https://github.com/js13kGames/flip-flop) |
 | Floor Thirteen | [Florent Cailhol](https://github.com/js13kGames/floor-thirteen) | MIT | [js13kGames/floor-thirteen](https://github.com/js13kGames/floor-thirteen) |
 | Flour Oh! Flour | [platane](https://github.com/js13kGames/flour-oh-flour) | MIT | [js13kGames/flour-oh-flour](https://github.com/js13kGames/flour-oh-flour) |
+| Flow of Four | [Andras Serfozo](https://github.com/js13kGames/flow-of-four) | Unlicense | [js13kGames/flow-of-four](https://github.com/js13kGames/flow-of-four) |
 | Force of Elementals | [joinee](https://github.com/js13kGames/force-of-elementals) | MIT | [js13kGames/force-of-elementals](https://github.com/js13kGames/force-of-elementals) |
 | Forgetful God | [Ayuu](https://github.com/js13kGames/forgetful-god) | MIT | [js13kGames/forgetful-god](https://github.com/js13kGames/forgetful-god) |
 | Forgotten Island | [PhasedEvolution](https://github.com/js13kGames/forgotten-island) | MIT | [js13kGames/forgotten-island](https://github.com/js13kGames/forgotten-island) |
@@ -236,6 +252,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Galactic Communications Inc | [Alexander Petrov](https://github.com/js13kGames/galactic-communications-inc) | MIT | [js13kGames/galactic-communications-inc](https://github.com/js13kGames/galactic-communications-inc) |
 | Game Of Life Fight To The Death | [serglider](https://github.com/js13kGames/game-of-life-fight-to-the-death) | MIT | [js13kGames/game-of-life-fight-to-the-death](https://github.com/js13kGames/game-of-life-fight-to-the-death) |
 | garrulus | [Michał Budzyński](https://github.com/js13kGames/garrulus) | ISC | [js13kGames/garrulus](https://github.com/js13kGames/garrulus) |
+| Gear Of War | [Danilo Pasquariello](https://github.com/thedart76) | MIT | [js13kGames/gear-of-war](https://github.com/js13kGames/gear-of-war) |
 | Ghost Mode | [Tero J, Sami H](https://github.com/js13kGames/ghost-mode) | MIT | [js13kGames/ghost-mode](https://github.com/js13kGames/ghost-mode) |
 | Ghosts | [Piotr Czajkowski](https://github.com/js13kGames/ghosts) | MIT | [js13kGames/ghosts](https://github.com/js13kGames/ghosts) |
 | Giant Leap | [WMAR-9](https://github.com/WMAR-9) | MIT | [js13kGames/giant-leap](https://github.com/js13kGames/giant-leap) |
@@ -279,6 +296,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Idle Merchant Guild | [Ayuu](https://github.com/js13kGames/idle-merchant-guild) | MIT | [js13kGames/idle-merchant-guild](https://github.com/js13kGames/idle-merchant-guild) |
 | Idle Necromancer | [CutFuyi](https://github.com/CutFuyi) | Apache-2.0 | [js13kGames/idle-necromancer](https://github.com/js13kGames/idle-necromancer) |
 | Infernal Adolescence | [Robert Louie](https://github.com/js13kGames/infernal-adolescence) | MIT | [js13kGames/infernal-adolescence](https://github.com/js13kGames/infernal-adolescence) |
+| Inside Cat | [Randy Tayler](https://github.com/js13kGames/inside-cat) | CC0 | [js13kGames/inside-cat](https://github.com/js13kGames/inside-cat) |
 | Internet Quest | [Ivan Fonseca](https://github.com/js13kGames/internet-quest) | GPL-3.0 | [js13kGames/internet-quest](https://github.com/js13kGames/internet-quest) |
 | Interplanetary Postal Service | [Sebastian Macke](https://github.com/js13kGames/interplanetary-postal-service) | GPL-3.0 | [js13kGames/interplanetary-postal-service](https://github.com/js13kGames/interplanetary-postal-service) |
 | Invertagon | [Jeremy de Reuck](https://github.com/js13kGames/invertagon) | MIT | [js13kGames/invertagon](https://github.com/js13kGames/invertagon) |
@@ -290,16 +308,20 @@ Only entries whose source repo has an open license are included, and that licens
 | I’ve lost my parents! | [Michael M](https://github.com/Schnark) | Apache-2.0 | [js13kGames/ive-lost-my-parents](https://github.com/js13kGames/ive-lost-my-parents) |
 | JAZZ | [bacionejs](https://github.com/js13kGames/jazz) | GPL-3.0 | [js13kGames/jazz](https://github.com/js13kGames/jazz) |
 | Jetout | [Greg Peck](https://github.com/js13kGames/jetout) | MIT | [js13kGames/jetout](https://github.com/js13kGames/jetout) |
+| Johnny Smiter Episode Zero | [Paul Brunt](https://github.com/js13kGames/johnny-smiter-episode-zero) | GPL-2.0 | [js13kGames/johnny-smiter-episode-zero](https://github.com/js13kGames/johnny-smiter-episode-zero) |
 | JS13k 2026 | [Jasper Renow-Clarke](https://github.com/js13kGames/rush-to-the-rainbow) | MIT | [js13kGames/rush-to-the-rainbow](https://github.com/js13kGames/rush-to-the-rainbow) |
 | JunoJS | [Robert Kotecki](https://github.com/js13kGames/junojs) | MIT | [js13kGames/junojs](https://github.com/js13kGames/junojs) |
 | Jurassic Nursery | [platane](https://github.com/js13kGames/jurassic-nursery) | MIT | [js13kGames/jurassic-nursery](https://github.com/js13kGames/jurassic-nursery) |
 | Just go straight | [p.gimond](https://github.com/js13kGames/just-go-straight) | GPL-3.0 | [js13kGames/just-go-straight](https://github.com/js13kGames/just-go-straight) |
 | K1n3kt Archery | [Artur Augusto Martins](https://github.com/js13kGames/k1n3kt-archery) | GPL-3.0 | [js13kGames/k1n3kt-archery](https://github.com/js13kGames/k1n3kt-archery) |
 | Kazuki's escape | [Mihailescu Marian Valentin](https://github.com/js13kGames/kazukis-escape) | MIT | [js13kGames/kazukis-escape](https://github.com/js13kGames/kazukis-escape) |
+| Keep Calm | [Micheal Parks](https://github.com/js13kGames/keep-calm) | MIT | [js13kGames/keep-calm](https://github.com/js13kGames/keep-calm) |
 | Keep them OFF the LINE | [gabboraron](https://github.com/js13kGames/keep-them-off-the-line) | MPL-2.0 | [js13kGames/keep-them-off-the-line](https://github.com/js13kGames/keep-them-off-the-line) |
+| Keep'em 404 | [Timmy Kokke](https://github.com/js13kGames/keepem-404) | MIT | [js13kGames/keepem-404](https://github.com/js13kGames/keepem-404) |
 | Khan Westward Conquest | [Cody Ebberson](https://github.com/js13kGames/khan-westward-conquest) | MIT | [js13kGames/khan-westward-conquest](https://github.com/js13kGames/khan-westward-conquest) |
 | Khilji's Folly | [Sayem Shafayet & Shuhan Mirza](https://github.com/js13kGames/khiljis-folly) | GPL-3.0 | [js13kGames/khiljis-folly](https://github.com/js13kGames/khiljis-folly) |
 | Kindness TD | [EricOP](https://github.com/js13kGames/kindness-td) | MIT | [js13kGames/kindness-td](https://github.com/js13kGames/kindness-td) |
+| Kittens Crossing | [SamuelVanEgmond](https://github.com/SamuelVanEgmond) | MIT | [js13kGames/kittens-crossing](https://github.com/js13kGames/kittens-crossing) |
 | KleptoKitty | [Eoin McGrath](https://github.com/js13kGames/kleptokitty) | MIT | [js13kGames/kleptokitty](https://github.com/js13kGames/kleptokitty) |
 | Knight | [WMAR-9](https://github.com/WMAR-9) | MIT | [js13kGames/knight](https://github.com/js13kGames/knight) |
 | Knights of Acre | [Javi Agenjo](https://github.com/js13kGames/knights-of-acre) | MIT | [js13kGames/knights-of-acre](https://github.com/js13kGames/knights-of-acre) |
@@ -318,6 +340,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Lost In A Space Odyssey | [Marc Guinea](https://github.com/js13kGames/lost-in-a-space-odyssey) | MIT | [js13kGames/lost-in-a-space-odyssey](https://github.com/js13kGames/lost-in-a-space-odyssey) |
 | Lost in CYBERSPACE | [Bartek Szopka & Zofia Korcz](https://github.com/js13kGames/lost-in-cyberspace) | MIT | [js13kGames/lost-in-cyberspace](https://github.com/js13kGames/lost-in-cyberspace) |
 | Lost in Font | [jamesmeister14](https://github.com/js13kGames/lost-in-font) | MIT | [js13kGames/lost-in-font](https://github.com/js13kGames/lost-in-font) |
+| Lost in Metaverse | [Karan Ganesan](https://github.com/js13kGames/lost-in-metaverse) | MIT | [js13kGames/lost-in-metaverse](https://github.com/js13kGames/lost-in-metaverse) |
 | Lost in obstacles | [Krishnan](https://github.com/js13kGames/lost-in-obstacles) | MIT | [js13kGames/lost-in-obstacles](https://github.com/js13kGames/lost-in-obstacles) |
 | Lost in the Maze | [by Evan Wallace](https://github.com/js13kGames/lost-in-the-maze) | MIT | [js13kGames/lost-in-the-maze](https://github.com/js13kGames/lost-in-the-maze) |
 | Lost Island | [floriico](https://github.com/js13kGames/lost-island) | MIT | [js13kGames/lost-island](https://github.com/js13kGames/lost-island) |
@@ -332,6 +355,8 @@ Only entries whose source repo has an open license are included, and that licens
 | Magik - 404 | [A Smith](https://github.com/js13kGames/magik-404) | CC0 | [js13kGames/magik-404](https://github.com/js13kGames/magik-404) |
 | Magna Carta | [Antti Haavikko](https://github.com/js13kGames/magna-carta) | MIT | [js13kGames/magna-carta](https://github.com/js13kGames/magna-carta) |
 | Mai | [Viljami Peltola](https://github.com/js13kGames/mai) | MIT | [js13kGames/mai](https://github.com/js13kGames/mai) |
+| Mane Course | [Alex Lin](https://github.com/js13kGames/mane-course) | MIT | [js13kGames/mane-course](https://github.com/js13kGames/mane-course) |
+| Marco...? | [lynchbyte](https://github.com/lynchbyte) | MIT | [js13kGames/marco](https://github.com/js13kGames/marco) |
 | Master of 13k Suns | [Deathray Games, Luke Nickerson](https://github.com/js13kGames/master-of-13k-suns) | MIT | [js13kGames/master-of-13k-suns](https://github.com/js13kGames/master-of-13k-suns) |
 | MawLight | [JustGibas](https://github.com/js13kGames/mawlight) | Apache-2.0 | [js13kGames/mawlight](https://github.com/js13kGames/mawlight) |
 | Mazeren | [Gregory Jeckell](https://github.com/js13kGames/mazeren) | MIT | [js13kGames/mazeren](https://github.com/js13kGames/mazeren) |
@@ -411,6 +436,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Plunder Survivors | [Matt McKenna](https://github.com/js13kGames/plunder-survivors) | MIT | [js13kGames/plunder-survivors](https://github.com/js13kGames/plunder-survivors) |
 | Poker Mysterio | [ZYXPlay](https://github.com/js13kGames/poker-mysterio) | MIT | [js13kGames/poker-mysterio](https://github.com/js13kGames/poker-mysterio) |
 | Polygone Trust Not Found | [André Jaenisch](https://github.com/js13kGames/polygone-trust-not-found) | GPL-3.0 | [js13kGames/polygone-trust-not-found](https://github.com/js13kGames/polygone-trust-not-found) |
+| Polyhedron Runner | [Alex Swan](https://github.com/js13kGames/polyhedron-runner) | MIT | [js13kGames/polyhedron-runner](https://github.com/js13kGames/polyhedron-runner) |
 | Poopicorn | [Ryan Malm](https://github.com/js13kGames/poopicorn) | MIT | [js13kGames/poopicorn](https://github.com/js13kGames/poopicorn) |
 | Popnoid | [GregPeck](https://github.com/js13kGames/popnoid) | GPL-3.0 | [js13kGames/popnoid](https://github.com/js13kGames/popnoid) |
 | POPULATION: 404 | [Victor Nogueira](https://github.com/js13kGames/population-404) | MIT | [js13kGames/population-404](https://github.com/js13kGames/population-404) |
@@ -422,6 +448,8 @@ Only entries whose source repo has an open license are included, and that licens
 | PRISMHORN | [Core Systems Asset Factory](https://github.com/js13kGames/prismhorn) | MIT | [js13kGames/prismhorn](https://github.com/js13kGames/prismhorn) |
 | Protect The Base | [zhi](https://github.com/js13kGames/protect-the-base) | MIT | [js13kGames/protect-the-base](https://github.com/js13kGames/protect-the-base) |
 | PULSE | [Marco Fernandes](https://github.com/js13kGames/pulse) | MIT | [js13kGames/pulse](https://github.com/js13kGames/pulse) |
+| purplFLOW | [_primecode](https://github.com/js13kGames/purplflow) | MIT | [js13kGames/purplflow](https://github.com/js13kGames/purplflow) |
+| Put BACK the toys | [Marc Guinea](https://github.com/js13kGames/put-back-the-toys) | MIT | [js13kGames/put-back-the-toys](https://github.com/js13kGames/put-back-the-toys) |
 | Putt Till You Die | [Cliff Earl, Antix Development](https://github.com/js13kGames/putt-till-you-die) | MIT | [js13kGames/putt-till-you-die](https://github.com/js13kGames/putt-till-you-die) |
 | Puzzle Black Cat Combat | [Bob_Game](https://github.com/js13kGames/puzzle-black-cat-combat) | MIT | [js13kGames/puzzle-black-cat-combat](https://github.com/js13kGames/puzzle-black-cat-combat) |
 | Puzzle from hell | [Frederic Charette](https://github.com/js13kGames/puzzle-from-hell) | Apache-2.0 | [js13kGames/puzzle-from-hell](https://github.com/js13kGames/puzzle-from-hell) |
@@ -433,6 +461,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Rainbow Fight | [LazyLuigi](https://github.com/LazyLuigi) | MIT | [js13kGames/rainbow-fight](https://github.com/js13kGames/rainbow-fight) |
 | Rainbow in the Dark / js13k 2026 | [Sebastian Dorn](https://github.com/js13kGames/rainbow-in-the-dark) | MIT | [js13kGames/rainbow-in-the-dark](https://github.com/js13kGames/rainbow-in-the-dark) |
 | Rainbow Merge | [Sorskoot](https://github.com/js13kGames/rainbow-merge) | MIT | [js13kGames/rainbow-merge](https://github.com/js13kGames/rainbow-merge) |
+| Rainbow Ranch | [lynchbyte](https://github.com/lynchbyte) | MIT | [js13kGames/rainbow-ranch](https://github.com/js13kGames/rainbow-ranch) |
 | Rainbow Runner | [Romuald Kowalczyk](https://github.com/js13kGames/rainbow-dash-runner) | MIT | [js13kGames/rainbow-dash-runner](https://github.com/js13kGames/rainbow-dash-runner) |
 | RAINBOWBALL 2 | [Raimon Ràfols](https://github.com/js13kGames/rainbowball-2) | Apache-2.0 | [js13kGames/rainbowball-2](https://github.com/js13kGames/rainbowball-2) |
 | Rainbowhoof | [huozhehao](https://github.com/huozhehao) | MIT | [js13kGames/rainbowhoof](https://github.com/js13kGames/rainbowhoof) |
@@ -471,16 +500,19 @@ Only entries whose source repo has an open license are included, and that licens
 | ScriptFox13k | [Adam Reeves](https://github.com/js13kGames/scriptfox13k) | MIT | [js13kGames/scriptfox13k](https://github.com/js13kGames/scriptfox13k) |
 | Scroll Run | [Bartek Szopka](https://github.com/js13kGames/scroll-run) | MIT | [js13kGames/scroll-run](https://github.com/js13kGames/scroll-run) |
 | Search of Sounds | [Vitalii Liapin](https://github.com/js13kGames/search-of-sounds) | GPL-3.0 | [js13kGames/search-of-sounds](https://github.com/js13kGames/search-of-sounds) |
+| Server Rider VR | [Donitzo](https://github.com/Donitzo) | MIT | [js13kGames/server-rider-vr](https://github.com/js13kGames/server-rider-vr) |
 | Service Provider | [Kamil Sacewicz](https://github.com/kamsac) | MIT | [js13kGames/service-provider](https://github.com/js13kGames/service-provider) |
 | Shameful Murder Desperadoes | [Matt McKenna](https://github.com/js13kGames/shameful-murder-desperadoes) | MIT | [js13kGames/shameful-murder-desperadoes](https://github.com/js13kGames/shameful-murder-desperadoes) |
 | Sharks and Trains | [bitwhirlpool](https://github.com/js13kGames/sharks-and-trains) | MIT | [js13kGames/sharks-and-trains](https://github.com/js13kGames/sharks-and-trains) |
 | Shattered Prism | [Michał Budzyński](https://github.com/js13kGames/shattered-prism) | ISC | [js13kGames/shattered-prism](https://github.com/js13kGames/shattered-prism) |
 | Shield Maiden | [ehtd](https://github.com/js13kGames/shield-maiden) | MIT | [js13kGames/shield-maiden](https://github.com/js13kGames/shield-maiden) |
+| Shifted Dimensions | [Tom Brewe](https://github.com/js13kGames/shifted-dimensions) | MIT | [js13kGames/shifted-dimensions](https://github.com/js13kGames/shifted-dimensions) |
 | Shikken | [Luke Nickerson / Deathray Games](https://github.com/Lukenickerson) | MIT | [js13kGames/shikken](https://github.com/js13kGames/shikken) |
 | Shooooooot!! | [Stephen Styrchak](https://github.com/js13kGames/shooooooot) | ISC | [js13kGames/shooooooot](https://github.com/js13kGames/shooooooot) |
 | Shutdown | [Simon Goldin](https://github.com/js13kGames/shutdown) | MIT | [js13kGames/shutdown](https://github.com/js13kGames/shutdown) |
 | Signal Decay | [Andrew Petersen](https://github.com/js13kGames/signal-decay) | MIT | [js13kGames/signal-decay](https://github.com/js13kGames/signal-decay) |
 | Silly Goose and Moose | [christoffee](https://github.com/js13kGames/silly-goose-and-moose) | MIT | [js13kGames/silly-goose-and-moose](https://github.com/js13kGames/silly-goose-and-moose) |
+| Sir Coadalot And The Holy Grail | [Matt McKenna](https://github.com/NikLever) | MIT | [js13kGames/sir-coadalot-and-the-holy-grail](https://github.com/js13kGames/sir-coadalot-and-the-holy-grail) |
 | Six And Seven | [Jerome Lecomte](https://github.com/js13kGames/six-and-seven) | MIT | [js13kGames/six-and-seven](https://github.com/js13kGames/six-and-seven) |
 | Skeleathon | [Eric Ros](https://github.com/js13kGames/skeleathon) | GPL-3.0 | [js13kGames/skeleathon](https://github.com/js13kGames/skeleathon) |
 | Skull Ocean | [platane](https://github.com/js13kGames/skull-ocean) | MIT | [js13kGames/skull-ocean](https://github.com/js13kGames/skull-ocean) |
@@ -498,7 +530,9 @@ Only entries whose source repo has an open license are included, and that licens
 | Space Garden | [Jerome Lecomte](https://github.com/js13kGames/space-garden) | MIT | [js13kGames/space-garden](https://github.com/js13kGames/space-garden) |
 | Space Glitchy Invaders | [mguinea](https://github.com/js13kGames/space-glitchy-invaders) | MIT | [js13kGames/space-glitchy-invaders](https://github.com/js13kGames/space-glitchy-invaders) |
 | Space Tribute | [GregPeck](https://github.com/js13kGames/space-tribute) | GPL-3.0 | [js13kGames/space-tribute](https://github.com/js13kGames/space-tribute) |
+| SpaceDucts! | [ickack](https://github.com/ickack) | MIT | [js13kGames/spaceducts](https://github.com/js13kGames/spaceducts) |
 | SPACETAXI | [Christoph Schansky](https://github.com/js13kGames/spacetaxi) | GPL-3.0 | [js13kGames/spacetaxi](https://github.com/js13kGames/spacetaxi) |
+| Spacewrecked | [Timmy Kokke](https://github.com/js13kGames/spacewrecked) | MIT | [js13kGames/spacewrecked](https://github.com/js13kGames/spacewrecked) |
 | Spacing Guild | [Roberto Capuano](https://github.com/js13kGames/spacing-guild) | GPL-3.0 | [js13kGames/spacing-guild](https://github.com/js13kGames/spacing-guild) |
 | Spare Me | [Frank Mitchell](https://github.com/js13kGames/spare-me) | MIT | [js13kGames/spare-me](https://github.com/js13kGames/spare-me) |
 | Spatial Poker | [David Sides](https://github.com/davesides3) | MIT | [js13kGames/spatial-poker](https://github.com/js13kGames/spatial-poker) |
@@ -512,11 +546,14 @@ Only entries whose source repo has an open license are included, and that licens
 | Starship Toggle | [[NAME]](https://github.com/lifeprolific) | MIT | [js13kGames/starship-toggle](https://github.com/js13kGames/starship-toggle) |
 | Stay off theline | [Jennifer Kirsch](https://github.com/Taxcamp) | MIT | [js13kGames/stay-off-theline](https://github.com/js13kGames/stay-off-theline) |
 | Stay Safe | [José Valecillos](https://github.com/js13kGames/stay-safe) | MIT | [js13kGames/stay-safe](https://github.com/js13kGames/stay-safe) |
+| Steamshot 13 | [Matt McKenna](https://github.com/NikLever) | MIT | [js13kGames/steamshot-13](https://github.com/js13kGames/steamshot-13) |
 | Stolen Sword | [Ian Chiao](https://github.com/js13kGames/stolen-sword) | MIT | [js13kGames/stolen-sword](https://github.com/js13kGames/stolen-sword) |
 | Storm Of The Chaos Bane | [Noncho Savov](https://github.com/js13kGames/storm-of-the-chaos-bane) | GPL-3.0 | [js13kGames/storm-of-the-chaos-bane](https://github.com/js13kGames/storm-of-the-chaos-bane) |
 | Submersible Warship 2063 | [Jerome Lecomte](https://github.com/js13kGames/submersible-warship-2063) | MIT | [js13kGames/submersible-warship-2063](https://github.com/js13kGames/submersible-warship-2063) |
 | Sum It Up | [Hemkaran Raghav](https://github.com/js13kGames/sum-it-up) | MIT | [js13kGames/sum-it-up](https://github.com/js13kGames/sum-it-up) |
+| Sunset Stars | [lynchbyte](https://github.com/lynchbyte) | MIT | [js13kGames/sunset-stars](https://github.com/js13kGames/sunset-stars) |
 | Sunshine Golf Classic | [Frank Force](https://github.com/js13kGames/sunshine-golf-classic) | MIT | [js13kGames/sunshine-golf-classic](https://github.com/js13kGames/sunshine-golf-classic) |
+| SUP3RFR1GHT VR | [Jerome Lecomte](https://github.com/js13kGames/sup3rfr1ght-vr) | MIT | [js13kGames/sup3rfr1ght-vr](https://github.com/js13kGames/sup3rfr1ght-vr) |
 | Super Backpacking Adventure | [David Brad](https://github.com/js13kGames/super-backpacking-adventure) | MIT | [js13kGames/super-backpacking-adventure](https://github.com/js13kGames/super-backpacking-adventure) |
 | Super Benji | [Harvey Seager](https://github.com/js13kGames/super-benji) | MIT | [js13kGames/super-benji](https://github.com/js13kGames/super-benji) |
 | Super Castle Game | [Mark Vasilkov](https://github.com/js13kGames/super-castle-game) | GPL-3.0 | [js13kGames/super-castle-game](https://github.com/js13kGames/super-castle-game) |
@@ -538,7 +575,9 @@ Only entries whose source repo has an open license are included, and that licens
 | The Empire Str13Ks Back | [Giovanny](https://github.com/js13kGames/the-empire-str13ks-back) | MIT | [js13kGames/the-empire-str13ks-back](https://github.com/js13kGames/the-empire-str13ks-back) |
 | The High Cost Of Life | [Roberto Capuano](https://github.com/js13kGames/the-high-cost-of-life) | GPL-3.0 | [js13kGames/the-high-cost-of-life](https://github.com/js13kGames/the-high-cost-of-life) |
 | The Horde The Horde The Horde | [anthony cosgrave](https://github.com/anthonycosgrave) | MIT | [js13kGames/the-horde-the-horde-the-horde](https://github.com/js13kGames/the-horde-the-horde-the-horde) |
+| The King's Crowns | [Samuel Van Egmond](https://github.com/SamuelVanEgmond) | MIT | [js13kGames/the-kings-crowns](https://github.com/js13kGames/the-kings-crowns) |
 | The Last Spartan | [Michael Ferron](https://github.com/js13kGames/the-last-spartan) | MIT | [js13kGames/the-last-spartan](https://github.com/js13kGames/the-last-spartan) |
+| The Line | [Juan Carlos](https://github.com/js13kGames/the-line) | MIT | [js13kGames/the-line](https://github.com/js13kGames/the-line) |
 | The Lost Panda Miner | [Ayuu](https://github.com/js13kGames/the-lost-panda-miner) | MIT | [js13kGames/the-lost-panda-miner](https://github.com/js13kGames/the-lost-panda-miner) |
 | The Neatness | [Mark Vasilkov](https://github.com/js13kGames/the-neatness) | GPL-3.0 | [js13kGames/the-neatness](https://github.com/js13kGames/the-neatness) |
 | The Rainbow Is Right There | [Kieran Smith](https://github.com/imkieransmith) | MIT | [js13kGames/the-rainbow-is-right-there](https://github.com/js13kGames/the-rainbow-is-right-there) |
@@ -560,6 +599,7 @@ Only entries whose source repo has an open license are included, and that licens
 | they will find you | [razh](https://github.com/razh) | MIT | [js13kGames/they-will-find-you](https://github.com/js13kGames/they-will-find-you) |
 | Thirteen | [Marcin Walczak](https://github.com/js13kGames/thirteen) | MIT | [js13kGames/thirteen](https://github.com/js13kGames/thirteen) |
 | Thirteens Everywhere | [@mallo_c](https://github.com/js13kGames/thirteens-everywhere) | ISC | [js13kGames/thirteens-everywhere](https://github.com/js13kGames/thirteens-everywhere) |
+| Tic Tac Woe | [- Shauna Lynch](https://github.com/lynchbyte) | MIT | [js13kGames/tic-tac-woe](https://github.com/js13kGames/tic-tac-woe) |
 | Tide of the templars | [Veronika Milic and Alberto Acuña Gallego](https://github.com/veronika324) | MIT | [js13kGames/tide-of-the-templars](https://github.com/js13kGames/tide-of-the-templars) |
 | Timer Madness | [obiSerra](https://github.com/js13kGames/timer-madness) | MIT | [js13kGames/timer-madness](https://github.com/js13kGames/timer-madness) |
 | Tiny Yurts | [John](https://github.com/js13kGames/tiny-yurts) | MIT | [js13kGames/tiny-yurts](https://github.com/js13kGames/tiny-yurts) |
@@ -570,6 +610,7 @@ Only entries whose source repo has an open license are included, and that licens
 | Triskai Deka Phobia Card Game | [Romuald Kowalczyk](https://github.com/js13kGames/triskai-deka-phobia-card-game) | MIT | [js13kGames/triskai-deka-phobia-card-game](https://github.com/js13kGames/triskai-deka-phobia-card-game) |
 | Triskaideka Cats Elevator Caper | [Chris(topher) Stadler](https://github.com/js13kGames/triskaideka-cats-elevator-caper) | GPL-3.0 | [js13kGames/triskaideka-cats-elevator-caper](https://github.com/js13kGames/triskaideka-cats-elevator-caper) |
 | Triskaidekapotamus | [Kindness is the Dankest Meme](https://github.com/js13kGames/triskaidekapotamus) | MIT | [js13kGames/triskaidekapotamus](https://github.com/js13kGames/triskaidekapotamus) |
+| Triskatopia | [lynchbyte](https://github.com/lynchbyte) | MIT | [js13kGames/triskatopia](https://github.com/js13kGames/triskatopia) |
 | Troposphere | [Sami H, Tero Jäntti](https://github.com/js13kGames/troposphere) | MIT | [js13kGames/troposphere](https://github.com/js13kGames/troposphere) |
 | Tube Masters | [Zack Urben](https://github.com/js13kGames/tube-masters) | MIT | [js13kGames/tube-masters](https://github.com/js13kGames/tube-masters) |
 | Turnometry | [Amaan Cheval](https://github.com/js13kGames/turnometry) | MIT | [js13kGames/turnometry](https://github.com/js13kGames/turnometry) |
