@@ -4,7 +4,7 @@ Open-source browser games for [GN 2.0](https://github.com/SCHSwork/math). Every 
 
 GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. They load through jsDelivr, GitHub and githack, like the rest of the site.
 
-## Games (63)
+## Games (66)
 
 | Game | Made by | License | Original source |
 |---|---|---|---|
@@ -30,6 +30,7 @@ GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. The
 | EKG Runner | [Ryan Kahn and team (Myztiq)](https://github.com/Myztiq) | MIT | [Myztiq/ekgrunner](https://github.com/Myztiq/ekgrunner/tree/dcb6a9af3965cba23c79a869abb15f9e5b02a0e8) |
 | Elematter | [Jack Rugile](https://github.com/jackrugile) | MIT | [jackrugile/elematter-js13k](https://github.com/jackrugile/elematter-js13k/tree/b7c4c0a9e06446a9afacbd605ea1efb0ae3433ae) |
 | Elevator Saga | [Magnus Wolffelt](https://github.com/magwo) | MIT | [magwo/elevatorsaga](https://github.com/magwo/elevatorsaga/tree/e0c55bf8cf59243c32dc371b2cc7b2e3ec1664af) |
+| Emberwind | [TimeTrap and Opera Software](https://github.com/operasoftware) | BSD-3-Clause | [operasoftware/Emberwind](https://github.com/operasoftware/Emberwind/tree/78a2811ee9db28bd566427253c3e4fe8a9ac78b3) |
 | Flexbox Froggy | [Thomas Park](https://github.com/thomaspark) | MIT | [thomaspark/flexboxfroggy](https://github.com/thomaspark/flexboxfroggy/tree/9a6feab850a56cbe9ad90f3afcc95e88335bbec8) |
 | Follow Me | [Sandeep Nambiar (gamedolphin)](https://github.com/gamedolphin) | MIT | [gamedolphin/follow_me_javascript_simon_clone](https://github.com/gamedolphin/follow_me_javascript_simon_clone/tree/a2a2c22c2b1354672c181dc2e03bc8f87da5079c) |
 | HexGL | [Thibaut Despoulain](https://github.com/BKcore) | MIT | [BKcore/HexGL](https://github.com/BKcore/HexGL/tree/6addc95a2fce3bf05f4d751823cc054c61a16d68) |
@@ -49,6 +50,8 @@ GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. The
 | Onslaught Arena | [Lost Decade Games](https://github.com/lostdecade) | GPL (code); free to share art | [lostdecade/onslaught_arena](https://github.com/lostdecade/onslaught_arena/tree/72becec29068de90c114ef0124b7570051437e6d) |
 | Paddles | [Jake Gordon](https://github.com/jakesgordon) | MIT | [jakesgordon/javascript-pong](https://github.com/jakesgordon/javascript-pong/tree/ca3240536e4f79ab7144388e56ed19de715b6662) |
 | Parity | [Abe Fehr](https://github.com/abejfehr) | MIT | [abejfehr/parity](https://github.com/abejfehr/parity/tree/730ecbd24d4cd821bd236f2a441f4e5e2b22654f) |
+| Particle Clicker | [Particle Clicker team (CERN Webfest)](https://github.com/particle-clicker) | MIT | [particle-clicker/particle-clicker](https://github.com/particle-clicker/particle-clicker/tree/d6762d54eced10cca613262072fe5b44d157aa38) |
+| Pond | [Zoli Kahan (Zolmeister)](https://github.com/Zolmeister) | GPL-3.0 | [Zolmeister/pond](https://github.com/Zolmeister/pond/tree/68fa8b542bff6c405cce83a6bd433e16e7b4e7f6) |
 | Quintus Platformer | [Pascal Rettig (Cykod)](https://github.com/cykod) | MIT | [cykod/Quintus](https://github.com/cykod/Quintus/tree/b6da4d0fcd786b162144ace7d7844541b4993808) |
 | Racer | [Jake Gordon](https://github.com/jakesgordon) | MIT | [jakesgordon/javascript-racer](https://github.com/jakesgordon/javascript-racer/tree/3e8a060b5900755db27f899612a74a77427c853e) |
 | Radius Raid | [Jack Rugile](https://github.com/jackrugile) | MIT | [jackrugile/radius-raid-js13k](https://github.com/jackrugile/radius-raid-js13k/tree/361ab5166570cfc8a29a4fc15c9afba566117b66) |
@@ -83,7 +86,8 @@ The games are unchanged, except for small fixes so they work inside GN 2.0:
 - A few file paths that assumed the game was at the root of a website now point to the game's own folder (A Dark Room, Astray, Avabranch, The House, EKG Runner).
 - Tower Building's "play again" button restarts the game in the player instead of reloading the page.
 - Removed third-party scripts that loaded from outside sites: Hextris's remote `a.js`, the Clay.io SDK in Zop and Parity, and the Facebook SDK in Parity.
-- Libraries that came from outside sites are copied into the game's folder instead: jQuery (MIT) for Untrusted and I Spy a Ghost, and CreateJS (MIT) for Turkey Cooking Simulator.
+- Libraries that came from outside sites are copied into the game's folder instead: jQuery (MIT) for Untrusted and I Spy a Ghost, CreateJS (MIT) for Turkey Cooking Simulator, and jQuery, AngularJS, Bootstrap and Font Awesome (all MIT/OFL) for Particle Clicker.
+- Emberwind's uncompressed `.wav` audio is left out; the game uses its `.mp3`/`.m4a` copies.
 - Dental Defender had a leftover developer-only script (`livereload.js`); it's removed.
 - Several games share one copy of their engine: the three LittleJS games use `games/littlejs/`, and the three Quintus games use `games/quintus/`.
 - Untrusted's soundtrack is too large to copy (about 160 MB), so its music streams from the original repo.
@@ -112,7 +116,7 @@ Games under share-alike or GPL licenses (Swap, Starship Sorades, Hextris, Clumsy
 
 ```json
 {
-  "id": 100064,
+  "id": 100067,
   "name": "My Game",
   "author": "Creator name",
   "authorLink": "https://github.com/creator",
@@ -127,5 +131,7 @@ Games under share-alike or GPL licenses (Swap, Starship Sorades, Hextris, Clumsy
 ```
 
 GN 2.0 picks up changes on its own. jsDelivr can take up to 12 hours to show them; until then the site may serve the previous version.
+
+If a game here is the same game as one already in the main gn-math library, add `"libraryDuplicate": true` to its entry. GN 2.0 then hides it, so it doesn't show up twice, and shows it only when the main library is down. Only do this after checking that it really is the same game; two games can share a name. Right now only 2048 is marked.
 
 To take a game down (for example, if its creator asks), delete its folder and its `games.json` entry.

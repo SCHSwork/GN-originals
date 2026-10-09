@@ -13,7 +13,8 @@
   "licenseFile": "games/2048/LICENSE.txt",
   "source": "https://github.com/gabrielecirulli/2048",
   "sourceCommit": "478b6ec346e3787f589e4af751378d06ded4cbbc",
-  "description": "Slide the tiles and merge matching numbers to reach 2048."
+  "description": "Slide the tiles and merge matching numbers to reach 2048.",
+  "libraryDuplicate": true
  },
  {
   "id": 100002,
@@ -1010,5 +1011,54 @@
   "source": "https://github.com/cykod/Quintus",
   "sourceCommit": "b6da4d0fcd786b162144ace7d7844541b4993808",
   "description": "Jump and duck past the obstacles."
+ },
+ {
+  "id": 100064,
+  "name": "Particle Clicker",
+  "author": "Particle Clicker team (CERN Webfest)",
+  "authorLink": "https://github.com/particle-clicker",
+  "path": "games/particle-clicker/index.html",
+  "cover": "covers/particle-clicker.png",
+  "special": [
+   "idle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/particle-clicker/LICENSE",
+  "source": "https://github.com/particle-clicker/particle-clicker",
+  "sourceCommit": "d6762d54eced10cca613262072fe5b44d157aa38",
+  "description": "Run a particle physics lab: click to collect data, hire staff and make discoveries."
+ },
+ {
+  "id": 100065,
+  "name": "Pond",
+  "author": "Zoli Kahan (Zolmeister)",
+  "authorLink": "https://github.com/Zolmeister",
+  "path": "games/pond/index.html",
+  "cover": "covers/pond.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "GPL-3.0",
+  "licenseFile": "games/pond/COPYING",
+  "source": "https://github.com/Zolmeister/pond",
+  "sourceCommit": "68fa8b542bff6c405cce83a6bd433e16e7b4e7f6",
+  "description": "Swim, eat and grow as a fish in a calm, colorful pond."
+ },
+ {
+  "id": 100066,
+  "name": "Emberwind",
+  "author": "TimeTrap and Opera Software",
+  "authorLink": "https://github.com/operasoftware",
+  "path": "games/emberwind/index.html",
+  "cover": "covers/emberwind.png",
+  "special": [
+   "platformer",
+   "adventure"
+  ],
+  "license": "BSD-3-Clause",
+  "licenseFile": "games/emberwind/LICENSE",
+  "source": "https://github.com/operasoftware/Emberwind",
+  "sourceCommit": "78a2811ee9db28bd566427253c3e4fe8a9ac78b3",
+  "description": "A fairy-tale platformer: a little guardian fights to free his village."
  }
 ]
