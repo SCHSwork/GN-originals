@@ -536,5 +536,479 @@
   "source": "https://github.com/satanas/infectors",
   "sourceCommit": "1f0fbdb581eb978a84323a774d1f98f220e18997",
   "description": "A sliding puzzle about spreading the infection."
+ },
+ {
+  "id": 100034,
+  "name": "Bubble Shooter",
+  "author": "Rembound",
+  "authorLink": "https://github.com/rembound",
+  "path": "games/bubble-shooter/bubble-shooter.html",
+  "cover": "covers/bubble-shooter.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/bubble-shooter/LICENSE",
+  "source": "https://github.com/rembound/Bubble-Shooter-HTML5",
+  "sourceCommit": "2e62806ef5d7471f77566bc1cf6f2ac17a584c4d",
+  "description": "Aim and pop clusters of three or more same-colored bubbles."
+ },
+ {
+  "id": 100035,
+  "name": "Match 3",
+  "author": "Rembound",
+  "authorLink": "https://github.com/rembound",
+  "path": "games/match-3/match3.html",
+  "cover": "covers/match-3.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/match-3/LICENSE",
+  "source": "https://github.com/rembound/Match-3-Game-HTML5",
+  "sourceCommit": "be7df47403668623ed40073fa87d39d9b4c7da2d",
+  "description": "Swap gems to line up three or more of a kind."
+ },
+ {
+  "id": 100036,
+  "name": "LittleJS Breakout",
+  "author": "Frank Force",
+  "authorLink": "https://github.com/KilledByAPixel",
+  "path": "games/littlejs/examples/breakout/index.html",
+  "cover": "covers/littlejs-breakout.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/littlejs/LICENSE",
+  "source": "https://github.com/KilledByAPixel/LittleJS",
+  "sourceCommit": "37733d7aa1656914cc4bb5d4d6e7cd2dd65ed941",
+  "description": "A juicy brick breaker built with the LittleJS engine."
+ },
+ {
+  "id": 100037,
+  "name": "LittleJS Platformer",
+  "author": "Frank Force",
+  "authorLink": "https://github.com/KilledByAPixel",
+  "path": "games/littlejs/examples/platformer/index.html",
+  "cover": "covers/littlejs-platformer.png",
+  "special": [
+   "platformer"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/littlejs/LICENSE",
+  "source": "https://github.com/KilledByAPixel/LittleJS",
+  "sourceCommit": "37733d7aa1656914cc4bb5d4d6e7cd2dd65ed941",
+  "description": "Run, jump and blast through a destructible level."
+ },
+ {
+  "id": 100038,
+  "name": "LittleJS Puzzle",
+  "author": "Frank Force",
+  "authorLink": "https://github.com/KilledByAPixel",
+  "path": "games/littlejs/examples/puzzle/index.html",
+  "cover": "covers/littlejs-puzzle.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/littlejs/LICENSE",
+  "source": "https://github.com/KilledByAPixel/LittleJS",
+  "sourceCommit": "37733d7aa1656914cc4bb5d4d6e7cd2dd65ed941",
+  "description": "A match-three puzzle built with the LittleJS engine."
+ },
+ {
+  "id": 100039,
+  "name": "Space Huggers",
+  "author": "Frank Force",
+  "authorLink": "https://github.com/KilledByAPixel",
+  "path": "games/space-huggers/index.html",
+  "cover": "covers/space-huggers.png",
+  "special": [
+   "platformer",
+   "shooter"
+  ],
+  "license": "GPL-3.0",
+  "licenseFile": "games/space-huggers/LICENSE",
+  "source": "https://github.com/KilledByAPixel/SpaceHuggers",
+  "sourceCommit": "bdabe47ffb983d9c646e25b42e20de2338a37cc8",
+  "description": "A roguelike run-and-gun with fully destructible worlds."
+ },
+ {
+  "id": 100040,
+  "name": "Bounce Back",
+  "author": "Frank Force",
+  "authorLink": "https://github.com/KilledByAPixel",
+  "path": "games/bounce-back/index.html",
+  "cover": "covers/bounce-back.png",
+  "special": [
+   "adventure"
+  ],
+  "license": "GPL-3.0",
+  "licenseFile": "games/bounce-back/LICENSE",
+  "source": "https://github.com/KilledByAPixel/BounceBack",
+  "sourceCommit": "395fd046338e6c5d5840d10e7fbd74132f90b8f6",
+  "description": "A tiny top-down adventure armed with a boomerang."
+ },
+ {
+  "id": 100041,
+  "name": "Space Pi",
+  "author": "Jack Rugile",
+  "authorLink": "https://github.com/jackrugile",
+  "path": "games/space-pi/index.html",
+  "cover": "covers/space-pi.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/space-pi/LICENSE.md",
+  "source": "https://github.com/jackrugile/spacepi-js13k",
+  "sourceCommit": "f207e01a340d932acb04fe8b33ebc53b294f7b37",
+  "description": "Click fast and accurately to defend your bases in space."
+ },
+ {
+  "id": 100042,
+  "name": "Elematter",
+  "author": "Jack Rugile",
+  "authorLink": "https://github.com/jackrugile",
+  "path": "games/elematter/build/index.html",
+  "cover": "covers/elematter.png",
+  "special": [
+   "strategy"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/elematter/LICENSE.md",
+  "source": "https://github.com/jackrugile/elematter-js13k",
+  "sourceCommit": "b7c4c0a9e06446a9afacbd605ea1efb0ae3433ae",
+  "description": "An elemental tower defense game."
+ },
+ {
+  "id": 100043,
+  "name": "Onslaught Arena",
+  "author": "Lost Decade Games",
+  "authorLink": "https://github.com/lostdecade",
+  "path": "games/onslaught-arena/htdocs/index.html",
+  "cover": "covers/onslaught-arena.png",
+  "special": [
+   "action"
+  ],
+  "license": "GPL (code); free to share art",
+  "source": "https://github.com/lostdecade/onslaught_arena",
+  "sourceCommit": "72becec29068de90c114ef0124b7570051437e6d",
+  "description": "Survive waves of monsters in a medieval arena."
+ },
+ {
+  "id": 100044,
+  "name": "Monster Wants Candy",
+  "author": "Enclave Games",
+  "authorLink": "https://github.com/EnclaveGames",
+  "path": "games/monster-wants-candy/index.html",
+  "cover": "covers/monster-wants-candy.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "CC BY-NC 4.0",
+  "licenseFile": "games/monster-wants-candy/LICENSE.txt",
+  "source": "https://github.com/EnclaveGames/Monster-Wants-Candy-demo",
+  "sourceCommit": "a6d15680dba0ca34baf51c1d9c2a5245439213e5",
+  "description": "Catch falling candy for a hungry monster."
+ },
+ {
+  "id": 100045,
+  "name": "Drakonas",
+  "author": "Fellicht.nl (Casmo)",
+  "authorLink": "https://github.com/Casmo",
+  "path": "games/drakonas/index.html",
+  "cover": "covers/drakonas.png",
+  "special": [
+   "shooter",
+   "3d"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/drakonas/LICENSE",
+  "source": "https://github.com/Casmo/Drakonas",
+  "sourceCommit": "a85a35bc027f8f62df8245864507df1e49ad77ff",
+  "description": "A 3D vertical-scrolling space shooter."
+ },
+ {
+  "id": 100046,
+  "name": "EKG Runner",
+  "author": "Ryan Kahn and team (Myztiq)",
+  "authorLink": "https://github.com/Myztiq",
+  "path": "games/ekg-runner/index.html",
+  "cover": "covers/ekg-runner.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/ekg-runner/LICENSE",
+  "source": "https://github.com/Myztiq/ekgrunner",
+  "sourceCommit": "dcb6a9af3965cba23c79a869abb15f9e5b02a0e8",
+  "description": "Ride the heartbeat line and keep the patient alive."
+ },
+ {
+  "id": 100047,
+  "name": "I Spy a Ghost",
+  "author": "Omar Shehata",
+  "authorLink": "https://github.com/OmarShehata",
+  "path": "games/i-spy-a-ghost/index.html",
+  "cover": "covers/i-spy-a-ghost.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/i-spy-a-ghost/LICENSE",
+  "source": "https://github.com/OmarShehata/I-Spy-A-Ghost",
+  "sourceCommit": "dc36cec249fd210de6ac65a76bd3060991e8b058",
+  "description": "Find the ghosts hiding in the haunted house."
+ },
+ {
+  "id": 100048,
+  "name": "Trimps",
+  "author": "Trimps",
+  "authorLink": "https://github.com/Trimps",
+  "path": "games/trimps/index.html",
+  "cover": "covers/trimps.png",
+  "special": [
+   "idle"
+  ],
+  "license": "GPL-3.0",
+  "licenseFile": "games/trimps/license.txt",
+  "source": "https://github.com/Trimps/Trimps.github.io",
+  "sourceCommit": "b9edb1dfee270ebf81bef8d934dc71276bf8d963",
+  "description": "An idle game about gathering, building and fighting with your Trimps."
+ },
+ {
+  "id": 100049,
+  "name": "Shape",
+  "author": "Max Irwin",
+  "authorLink": "https://github.com/binarymax",
+  "path": "games/shape/index.html",
+  "cover": "covers/shape.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/shape/LICENSE",
+  "source": "https://github.com/binarymax/shape",
+  "sourceCommit": "f9d7f9eccc57e4870b7280878323ca12014dbdb4",
+  "description": "A shape-matching puzzle."
+ },
+ {
+  "id": 100050,
+  "name": "Dental Defender",
+  "author": "Cody Shepp",
+  "authorLink": "https://github.com/cshepp",
+  "path": "games/dental-defender/index.html",
+  "cover": "covers/dental-defender.png",
+  "special": [
+   "action"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/cshepp/candyjam",
+  "sourceCommit": "b1530e096c1bf2bf960e99aaf6bc938b37710b69",
+  "description": "Defend the teeth from the candy horde."
+ },
+ {
+  "id": 100051,
+  "name": "Drunken Viking",
+  "author": "Cong Xu",
+  "authorLink": "https://github.com/cxong",
+  "path": "games/drunken-viking/index.html",
+  "cover": "covers/drunken-viking.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/drunken-viking/LICENSE",
+  "source": "https://github.com/cxong/DrunkenViking",
+  "sourceCommit": "356d8e19f27060e3330de73fa1e0c68accfc5c79",
+  "description": "Get the wobbly viking home in this puzzle game."
+ },
+ {
+  "id": 100052,
+  "name": "Turkey Cooking Simulator",
+  "author": "fernjager",
+  "authorLink": "https://github.com/fernjager",
+  "path": "games/turkey-cooking-simulator/index.html",
+  "cover": "covers/turkey-cooking-simulator.png",
+  "special": [
+   "simulation"
+  ],
+  "license": "GPL-3.0",
+  "licenseFile": "games/turkey-cooking-simulator/LICENSE",
+  "source": "https://github.com/fernjager/game-off-2013",
+  "sourceCommit": "f23567db7fafd2601ce954e4edc3c28a9a9e415c",
+  "description": "Cook the perfect turkey without burning the house down."
+ },
+ {
+  "id": 100053,
+  "name": "Lost Beneath the Surface",
+  "author": "Sandeep Nambiar (gamedolphin)",
+  "authorLink": "https://github.com/gamedolphin",
+  "path": "games/lost-beneath-the-surface/index.html",
+  "cover": "covers/lost-beneath-the-surface.png",
+  "special": [
+   "adventure"
+  ],
+  "license": "GPL-3.0",
+  "source": "https://github.com/gamedolphin/Lost-Beneath-The-Surface",
+  "sourceCommit": "177c181a77a08949af28231a0c79f5dad9f833c7",
+  "description": "Explore the depths and find a way out."
+ },
+ {
+  "id": 100054,
+  "name": "Follow Me",
+  "author": "Sandeep Nambiar (gamedolphin)",
+  "authorLink": "https://github.com/gamedolphin",
+  "path": "games/follow-me/index.html",
+  "cover": "covers/follow-me.png",
+  "special": [
+   "memory"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/gamedolphin/follow_me_javascript_simon_clone",
+  "sourceCommit": "a2a2c22c2b1354672c181dc2e03bc8f87da5079c",
+  "description": "Repeat the growing pattern of colors and sounds."
+ },
+ {
+  "id": 100055,
+  "name": "Matching Pairs",
+  "author": "Sandeep Nambiar (gamedolphin)",
+  "authorLink": "https://github.com/gamedolphin",
+  "path": "games/matching-pairs/index.html",
+  "cover": "covers/matching-pairs.png",
+  "special": [
+   "memory"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/matching-pairs/LICENSE",
+  "source": "https://github.com/gamedolphin/matching-pairs",
+  "sourceCommit": "894e668edf1c559daa75fae70718f7de88e4a1ae",
+  "description": "Flip the cards and find every pair."
+ },
+ {
+  "id": 100056,
+  "name": "Raging Gardens",
+  "author": "Petar Petrov",
+  "authorLink": "https://github.com/petarov",
+  "path": "games/raging-gardens/index.html",
+  "cover": "covers/raging-gardens.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/raging-gardens/LICENSE",
+  "source": "https://github.com/petarov/game-off-2012",
+  "sourceCommit": "25ee1691752bb110f09a5f2256d477a67a0671ad",
+  "description": "Defend your garden from invaders."
+ },
+ {
+  "id": 100057,
+  "name": "Hyperspace Garbage Collector",
+  "author": "razh",
+  "authorLink": "https://github.com/razh",
+  "path": "games/hyperspace-garbage-collector/index.html",
+  "cover": "covers/hyperspace-garbage-collector.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/hyperspace-garbage-collector/LICENSE",
+  "source": "https://github.com/razh/game-off-2013",
+  "sourceCommit": "f5b93cbb57f653be4455f9dd5c130463b11abe2a",
+  "description": "Clean up space junk with physics."
+ },
+ {
+  "id": 100058,
+  "name": "BitBot",
+  "author": "Rogelio E. Cardona-Rivera and José D. Vélez",
+  "authorLink": "https://github.com/recardona",
+  "path": "games/bitbot/index.html",
+  "cover": "covers/bitbot.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/bitbot/LICENSE.md",
+  "source": "https://github.com/recardona/BitBot",
+  "sourceCommit": "ebd4fce5badf85900f195094323467a902cc050e",
+  "description": "Guide a little robot through logic puzzles."
+ },
+ {
+  "id": 100059,
+  "name": "Jolly Jumper",
+  "author": "Shohanur Rahaman",
+  "authorLink": "https://github.com/shohan4556",
+  "path": "games/jolly-jumper/index.html",
+  "cover": "covers/jolly-jumper.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/shohan4556/jolly-jumper",
+  "sourceCommit": "ac53f8460d9dbe4d98501a4cabfd6d67ace87142",
+  "description": "Jump from platform to platform as high as you can."
+ },
+ {
+  "id": 100060,
+  "name": "Monkey Rally",
+  "author": "antila",
+  "authorLink": "https://github.com/antila",
+  "path": "games/monkey-rally/src/index.html",
+  "cover": "covers/monkey-rally.png",
+  "special": [
+   "puzzle"
+  ],
+  "license": "CC BY 4.0",
+  "licenseFile": "games/monkey-rally/LICENSE",
+  "source": "https://github.com/antila/ludum-dare-28",
+  "sourceCommit": "79abaad33db0e0b5bddf4500800de881e2bc738c",
+  "description": "A puzzle rally with a single shot."
+ },
+ {
+  "id": 100061,
+  "name": "Quintus Platformer",
+  "author": "Pascal Rettig (Cykod)",
+  "authorLink": "https://github.com/cykod",
+  "path": "games/quintus/examples/platformer_full/index.html",
+  "cover": "covers/quintus-platformer.png",
+  "special": [
+   "platformer"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/cykod/Quintus",
+  "sourceCommit": "b6da4d0fcd786b162144ace7d7844541b4993808",
+  "description": "A side-scrolling platformer built with the Quintus engine."
+ },
+ {
+  "id": 100062,
+  "name": "Disasteroids",
+  "author": "Pascal Rettig (Cykod)",
+  "authorLink": "https://github.com/cykod",
+  "path": "games/quintus/examples/disasteroids/index.html",
+  "cover": "covers/disasteroids.png",
+  "special": [
+   "shooter"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/cykod/Quintus",
+  "sourceCommit": "b6da4d0fcd786b162144ace7d7844541b4993808",
+  "description": "Blast the rocks before they hit you."
+ },
+ {
+  "id": 100063,
+  "name": "Runner",
+  "author": "Pascal Rettig (Cykod)",
+  "authorLink": "https://github.com/cykod",
+  "path": "games/quintus/examples/runner/index.html",
+  "cover": "covers/runner.png",
+  "special": [
+   "arcade"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/cykod/Quintus",
+  "sourceCommit": "b6da4d0fcd786b162144ace7d7844541b4993808",
+  "description": "Jump and duck past the obstacles."
  }
 ]
