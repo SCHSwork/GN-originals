@@ -8339,7 +8339,7 @@
  {
   "id": 100608,
   "name": "Run, Run... RUN!",
-  "author": "-Today Sebastián González Quintero",
+  "author": "Today Sebastián González Quintero",
   "authorLink": "https://github.com/js13kGames/run-run-run",
   "path": "games/js13k/run-run-run/index.html",
   "cover": "covers/js13k/run-run-run.jpg",
@@ -10004,7 +10004,7 @@
  {
   "id": 100730,
   "name": "Tic Tac Woe",
-  "author": "- Shauna Lynch",
+  "author": "Shauna Lynch",
   "authorLink": "https://github.com/lynchbyte",
   "path": "games/js13k/tic-tac-woe/index.html",
   "cover": "covers/js13k/tic-tac-woe.jpg",

@@ -599,7 +599,7 @@ Only entries whose source repo has an open license are included, and that licens
 | they will find you | [razh](https://github.com/razh) | MIT | [js13kGames/they-will-find-you](https://github.com/js13kGames/they-will-find-you) |
 | Thirteen | [Marcin Walczak](https://github.com/js13kGames/thirteen) | MIT | [js13kGames/thirteen](https://github.com/js13kGames/thirteen) |
 | Thirteens Everywhere | [@mallo_c](https://github.com/js13kGames/thirteens-everywhere) | ISC | [js13kGames/thirteens-everywhere](https://github.com/js13kGames/thirteens-everywhere) |
-| Tic Tac Woe | [- Shauna Lynch](https://github.com/lynchbyte) | MIT | [js13kGames/tic-tac-woe](https://github.com/js13kGames/tic-tac-woe) |
+| Tic Tac Woe | [Shauna Lynch](https://github.com/lynchbyte) | MIT | [js13kGames/tic-tac-woe](https://github.com/js13kGames/tic-tac-woe) |
 | Tide of the templars | [Veronika Milic and Alberto Acuña Gallego](https://github.com/veronika324) | MIT | [js13kGames/tide-of-the-templars](https://github.com/js13kGames/tide-of-the-templars) |
 | Timer Madness | [obiSerra](https://github.com/js13kGames/timer-madness) | MIT | [js13kGames/timer-madness](https://github.com/js13kGames/timer-madness) |
 | Tiny Yurts | [John](https://github.com/js13kGames/tiny-yurts) | MIT | [js13kGames/tiny-yurts](https://github.com/js13kGames/tiny-yurts) |
