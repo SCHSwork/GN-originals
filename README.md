@@ -4,7 +4,7 @@ Open-source browser games for [GN 2.0](https://github.com/SCHSwork/math). Every 
 
 GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. They load through jsDelivr, GitHub and githack, like the rest of the site.
 
-## Games (66 hand-picked + 667 js13k)
+## Games (68 hand-picked + 667 js13k)
 
 The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS.md](JS13K-CREDITS.md). They're in `games/js13k/`, and GN 2.0 shows them under the **js13k (tiny games)** tag.
 
@@ -33,6 +33,7 @@ The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS
 | Elematter | [Jack Rugile](https://github.com/jackrugile) | MIT | [jackrugile/elematter-js13k](https://github.com/jackrugile/elematter-js13k/tree/b7c4c0a9e06446a9afacbd605ea1efb0ae3433ae) |
 | Elevator Saga | [Magnus Wolffelt](https://github.com/magwo) | MIT | [magwo/elevatorsaga](https://github.com/magwo/elevatorsaga/tree/e0c55bf8cf59243c32dc371b2cc7b2e3ec1664af) |
 | Emberwind | [TimeTrap and Opera Software](https://github.com/operasoftware) | BSD-3-Clause | [operasoftware/Emberwind](https://github.com/operasoftware/Emberwind/tree/78a2811ee9db28bd566427253c3e4fe8a9ac78b3) |
+| Escape Space | [Hugo Locurcio (Calinou)](https://github.com/Calinou) | MIT (code), CC0 / CC BY 3.0 (assets) | [Calinou/escape-space](https://github.com/Calinou/escape-space/tree/660cf887068774632043532bb2c98971a98b3b72) |
 | Flexbox Froggy | [Thomas Park](https://github.com/thomaspark) | MIT | [thomaspark/flexboxfroggy](https://github.com/thomaspark/flexboxfroggy/tree/9a6feab850a56cbe9ad90f3afcc95e88335bbec8) |
 | Follow Me | [Sandeep Nambiar (gamedolphin)](https://github.com/gamedolphin) | MIT | [gamedolphin/follow_me_javascript_simon_clone](https://github.com/gamedolphin/follow_me_javascript_simon_clone/tree/a2a2c22c2b1354672c181dc2e03bc8f87da5079c) |
 | HexGL | [Thibaut Despoulain](https://github.com/BKcore) | MIT | [BKcore/HexGL](https://github.com/BKcore/HexGL/tree/6addc95a2fce3bf05f4d751823cc054c61a16d68) |
@@ -67,6 +68,7 @@ The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS
 | Space Pi | [Jack Rugile](https://github.com/jackrugile) | MIT | [jackrugile/spacepi-js13k](https://github.com/jackrugile/spacepi-js13k/tree/f207e01a340d932acb04fe8b33ebc53b294f7b37) |
 | Space Rocks | [Doug McInnes](https://github.com/dmcinnes) | MIT | [dmcinnes/HTML5-Asteroids](https://github.com/dmcinnes/HTML5-Asteroids/tree/930301cbda83ed3b120f64b801d937d077ee2da0) |
 | Starship Sorades | [Thiemo Mättig](https://github.com/maettig) | CC BY-SA 3.0 | [maettig/starship-sorades-13k](https://github.com/maettig/starship-sorades-13k/tree/02acb39d4af5ee85246fadd6996380eb10d98034) |
+| Strider | [Petar Petrov (kenamick)](https://github.com/kenamick) | MIT | [kenamick/strider](https://github.com/kenamick/strider/tree/f32ce03c0e63ff8b6f703c9ada505eb1427abf4f) |
 | Swap | [Noah Moroze](https://github.com/nmoroze) | CC BY-SA 4.0 | [nmoroze/swap](https://github.com/nmoroze/swap/tree/a3cfb7d2d59d37dd3778d5de685a206cca4f1206) |
 | T-Rex Runner | [The Chromium Authors (packaged by wayou)](https://github.com/wayou) | BSD-3-Clause | [wayou/t-rex-runner](https://github.com/wayou/t-rex-runner/tree/5455bfa408ec6b707c7300ff194b7390733a766d) |
 | The House | [Artur Kot](https://github.com/arturkot) | MIT | [arturkot/the-house-game](https://github.com/arturkot/the-house-game/tree/5b255969cbc5751a3d2768a2c708097c1b8d704c) |

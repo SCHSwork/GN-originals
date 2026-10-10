@@ -11065,5 +11065,39 @@
   "source": "https://github.com/js13kGames/zigclimb-reborn",
   "description": "A js13kGames 2020 entry: the whole game fits in 13 KB.",
   "licenseFile": "games/js13k/zigclimb-reborn/LICENSE.txt"
+ },
+ {
+  "id": 100806,
+  "name": "Strider",
+  "author": "Petar Petrov (kenamick)",
+  "authorLink": "https://github.com/kenamick",
+  "path": "games/strider/index.html",
+  "cover": "covers/strider.png",
+  "special": [
+   "action",
+   "platformer"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/kenamick/strider",
+  "sourceCommit": "f32ce03c0e63ff8b6f703c9ada505eb1427abf4f",
+  "description": "A GitHub Game Off entry: run, jump and fight through a side-scrolling adventure.",
+  "licenseFile": "games/strider/LICENSE"
+ },
+ {
+  "id": 100808,
+  "name": "Escape Space",
+  "author": "Hugo Locurcio (Calinou)",
+  "authorLink": "https://github.com/Calinou",
+  "path": "games/escape-space/index.html",
+  "cover": "covers/escape-space.png",
+  "special": [
+   "arcade",
+   "puzzle"
+  ],
+  "license": "MIT (code), CC0 / CC BY 3.0 (assets)",
+  "source": "https://github.com/Calinou/escape-space",
+  "sourceCommit": "660cf887068774632043532bb2c98971a98b3b72",
+  "description": "Bounce a ball to break bricks and reach the exit in each level.",
+  "licenseFile": "games/escape-space/LICENSE.assets.md"
  }
 ]
