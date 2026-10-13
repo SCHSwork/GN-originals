@@ -4,9 +4,11 @@ Open-source browser games for [GN 2.0](https://github.com/SCHSwork/math). Every 
 
 GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. They load through jsDelivr, GitHub and githack, like the rest of the site.
 
-## Games (68 hand-picked + 667 js13k)
+## Games (83 hand-picked + 667 js13k + 120 WASM-4)
 
 The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS.md](JS13K-CREDITS.md). They're in `games/js13k/`, and GN 2.0 shows them under the **js13k (tiny games)** tag.
+
+The WASM-4 games (tiny retro games for the WASM-4 fantasy console) are listed with their credits in [WASM4-CREDITS.md](WASM4-CREDITS.md). They're in `games/wasm4/`, under the **WASM-4** tag.
 
 | Game | Made by | License | Original source |
 |---|---|---|---|
@@ -78,6 +80,21 @@ The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS
 | Turkey Cooking Simulator | [fernjager](https://github.com/fernjager) | GPL-3.0 | [fernjager/game-off-2013](https://github.com/fernjager/game-off-2013/tree/f23567db7fafd2601ce954e4edc3c28a9a9e415c) |
 | Untrusted | [Alex Nisnevich and Greg Shuflin](https://github.com/AlexNisnevich/untrusted) | CC BY-NC-SA 3.0 | [AlexNisnevich/untrusted](https://github.com/AlexNisnevich/untrusted/tree/784deade58e2053385a26a607199476ef36819ec) |
 | Zop | [Zoli Kahan (Zolmeister)](https://github.com/Zolmeister) | MIT | [Zolmeister/zop](https://github.com/Zolmeister/zop/tree/fafaa4751df64634aee48d942062617c21acfb26) |
+| Cat vs Roomba | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Dr. Turtle & Mr. Shark | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Floppy (raylib) | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Gold Fever (raylib) | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Gorilas (raylib) | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Just Do | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Koala Seasons | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Light My Ritual | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Repair | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Retro Maze 3D | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Skully Escape | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Snake (raylib) | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Transmission Mission | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Wave Collector | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
+| Inovation 2007 | Omega (original), [Hajime Hoshi](https://github.com/hajimehoshi) (Go port) | MIT | [hajimehoshi/go-inovation](https://github.com/hajimehoshi/go-inovation/tree/d53d47a7cde7f50089e51cac123b9adec1e0e341) |
 
 Each game's folder keeps its original license file. The "Original source" link points to the exact version that was copied.
 
@@ -96,6 +113,8 @@ The games are unchanged, except for small fixes so they work inside GN 2.0:
 - Several games share one copy of their engine: the three LittleJS games use `games/littlejs/`, and the three Quintus games use `games/quintus/`.
 - Untrusted's soundtrack is too large to copy (about 160 MB), so its music streams from the original repo.
 - Unused files are left out (build tools, packaged downloads, `node_modules`, design files).
+- The raylib games' pages are renamed to `index.html`, and their debug output box is hidden with one added style rule.
+- WASM-4 carts are bundled, unchanged, with the WASM-4 web player into one `index.html` (`w4 bundle`).
 
 ## Licenses to keep in mind
 
@@ -107,9 +126,9 @@ Four games are **non-commercial only**:
 - Untrusted (CC BY-NC-SA 3.0)
 - Infectors (CC BY-NC-SA 4.0)
 
-Five js13k games are also CC BY-NC-SA; JS13K-CREDITS.md lists their licenses.
+Five js13k games are also CC BY-NC-SA; JS13K-CREDITS.md lists their licenses. All WASM-4 games are CC BY-NC-SA 4.0 (see WASM4-CREDITS.md).
 
-These games are fine on GN 2.0 because it is free and shows no ads. If the site ever shows ads or charges money, remove them.
+These games are fine on GN 2.0 because it is free and doesn't earn money (the only ads are inside html5games.com partner games, which GN 2.0 doesn't get paid for). If the site ever earns money from ads or charges money, remove them.
 
 Games under share-alike or GPL licenses (Swap, Starship Sorades, Hextris, Clumsy Bird, Space Huggers, Bounce Back, Trimps, Onslaught Arena, Turkey Cooking Simulator, Lost Beneath the Surface, Untrusted and Infectors) must stay under those same licenses. Keep their license files with them.
 
