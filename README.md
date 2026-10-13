@@ -102,6 +102,9 @@ The WASM-4 games (tiny retro games for the WASM-4 fantasy console) are listed wi
 | Robot Platformer 3D | [Godot Engine contributors](https://godotengine.org) | MIT | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/platformer) |
 | Truck Town | [Godot Engine contributors](https://godotengine.org) | MIT (code); ambient sounds credited in LICENSE.txt | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/truck_town) |
 | Voxel World | [Godot Engine contributors](https://godotengine.org) | MIT (code), CC BY-SA 3.0 (block textures from Minetest Game) | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/voxel) |
+| Gobot: Third-Person Shooter | [GDQuest](https://www.gdquest.com) | MIT (code), CC BY-NC-SA 4.0 (art) | [gdquest-demos/godot-4-3d-third-person-controller](https://github.com/gdquest-demos/godot-4-3d-third-person-controller/tree/b3bd6e81084f568be8aa44a69a0c2b1e52e806b3) |
+| Squash the Creeps | [Godot Engine contributors](https://godotengine.org) | MIT | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/squash_the_creeps) |
+| Match 3 (Kenney) | [Kenney](https://kenney.nl) | MIT (code), CC0 (art and sound) | [KenneyNL/Starter-Kit-Match-3](https://github.com/KenneyNL/Starter-Kit-Match-3/tree/4ddb3d2a50cbf247c79cafe9e7884d7d8f99c012) |
 
 Each game's folder keeps its original license file. The "Original source" link points to the exact version that was copied.
 
@@ -121,7 +124,7 @@ The games are unchanged, except for small fixes so they work inside GN 2.0:
 - Untrusted's soundtrack is too large to copy (about 160 MB), so its music streams from the original repo.
 - Unused files are left out (build tools, packaged downloads, `node_modules`, design files).
 - The raylib games' pages are renamed to `index.html`, and their debug output box is hidden with one added style rule.
-- The 3D Godot games (in `games/godot/`) are exported for the web with Godot 4.6.2 (single-threaded, so no special server headers are needed), using `tools/godot_web_export_presets.cfg`. They share one copy of the engine, stored gzipped in `games/_godot/4.6.2/` to stay under jsDelivr's 20 MB file limit; a small script added to each `index.html` (`tools/godot_web_post.py`) unpacks it in the browser.
+- The 3D Godot games (in `games/godot/`) are exported for the web with Godot 4.6.2 (single-threaded, so no special server headers are needed), using `tools/godot_web_export_presets.cfg`. They share one copy of each engine version, stored gzipped in `games/_godot/<version>/` to stay under jsDelivr's 20 MB file limit; a small script added to each `index.html` (`tools/godot_web_post.py`) unpacks it in the browser.
 - WASM-4 carts are bundled, unchanged, with the WASM-4 web player into one `index.html` (`w4 bundle`).
 
 ## Licenses to keep in mind
@@ -133,6 +136,7 @@ Four games are **non-commercial only**:
 - Monster Wants Candy (CC BY-NC 4.0)
 - Untrusted (CC BY-NC-SA 3.0)
 - Infectors (CC BY-NC-SA 4.0)
+- Gobot: Third-Person Shooter (art is CC BY-NC-SA 4.0)
 
 Five js13k games are also CC BY-NC-SA; JS13K-CREDITS.md lists their licenses. All WASM-4 games are CC BY-NC-SA 4.0 (see WASM4-CREDITS.md).
 

@@ -13399,5 +13399,59 @@
   "sourceCommit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
   "description": "Explore, dig and build in an endless block world.",
   "licenseFile": "games/godot/voxel-world/LICENSE.txt"
+ },
+ {
+  "id": 100989,
+  "name": "Gobot: Third-Person Shooter",
+  "author": "GDQuest",
+  "authorLink": "https://www.gdquest.com",
+  "path": "games/godot/gobot-shooter/index.html",
+  "cover": "covers/godot-gobot-shooter.jpg",
+  "special": [
+   "3d",
+   "shooter",
+   "action",
+   "adventure"
+  ],
+  "license": "MIT (code), CC BY-NC-SA 4.0 (art)",
+  "source": "https://github.com/gdquest-demos/godot-4-3d-third-person-controller/tree/b3bd6e81084f568be8aa44a69a0c2b1e52e806b3",
+  "sourceCommit": "b3bd6e81084f568be8aa44a69a0c2b1e52e806b3",
+  "description": "Run, jump, shoot and throw grenades as a little robot, smashing crates and fighting enemies. A big 3D game: it takes a while to load.",
+  "licenseFile": "games/godot/gobot-shooter/LICENSE.txt"
+ },
+ {
+  "id": 100990,
+  "name": "Squash the Creeps",
+  "author": "Godot Engine contributors",
+  "authorLink": "https://godotengine.org",
+  "path": "games/godot/squash-the-creeps/index.html",
+  "cover": "covers/godot-squash-the-creeps.jpg",
+  "special": [
+   "3d",
+   "arcade",
+   "action"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/squash_the_creeps",
+  "sourceCommit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
+  "description": "Jump on the creeps to squash them before they bump into you. How long can you last?",
+  "licenseFile": "games/godot/squash-the-creeps/LICENSE.txt"
+ },
+ {
+  "id": 100991,
+  "name": "Match 3 (Kenney)",
+  "author": "Kenney",
+  "authorLink": "https://kenney.nl",
+  "path": "games/godot/kenney-match-3/index.html",
+  "cover": "covers/godot-kenney-match-3.jpg",
+  "special": [
+   "3d",
+   "puzzle"
+  ],
+  "license": "MIT (code), CC0 (art and sound)",
+  "source": "https://github.com/KenneyNL/Starter-Kit-Match-3/tree/4ddb3d2a50cbf247c79cafe9e7884d7d8f99c012",
+  "sourceCommit": "4ddb3d2a50cbf247c79cafe9e7884d7d8f99c012",
+  "description": "Swap tiles to make rows of three or more in this bright match-3 puzzle.",
+  "licenseFile": "games/godot/kenney-match-3/LICENSE.txt"
  }
 ]
