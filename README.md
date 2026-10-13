@@ -95,6 +95,13 @@ The WASM-4 games (tiny retro games for the WASM-4 fantasy console) are listed wi
 | Transmission Mission | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
 | Wave Collector | [Ramon Santamaria (raysan5)](https://github.com/raysan5) | zlib | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) (web build from [raysan5/raylib.com](https://github.com/raysan5/raylib.com/tree/947ec01e61fdb4e33b6e8b7f1aced5bce85ea9eb/games)) |
 | Inovation 2007 | Omega (original), [Hajime Hoshi](https://github.com/hajimehoshi) (Go port) | MIT | [hajimehoshi/go-inovation](https://github.com/hajimehoshi/go-inovation/tree/d53d47a7cde7f50089e51cac123b9adec1e0e341) |
+| 3D Platformer (Kenney) | [Kenney](https://kenney.nl) | MIT (code), CC0 (art and sound) | [KenneyNL/Starter-Kit-3D-Platformer](https://github.com/KenneyNL/Starter-Kit-3D-Platformer/tree/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0) |
+| Racing (Kenney) | [Kenney](https://kenney.nl) | MIT (code), CC0 (art and sound) | [KenneyNL/Starter-Kit-Racing](https://github.com/KenneyNL/Starter-Kit-Racing/tree/2f2e5f2646dda89cb21d4e8539bab60c6e955dc8) |
+| Blaster Arena (Kenney FPS) | [Kenney](https://kenney.nl) | MIT (code), CC0 (art and sound) | [KenneyNL/Starter-Kit-FPS](https://github.com/KenneyNL/Starter-Kit-FPS/tree/185fd2326d74a5cf858cffc616f87cf9696f9cc0) |
+| City Builder (Kenney) | [Kenney](https://kenney.nl) | MIT (code), CC0 (art) | [KenneyNL/Starter-Kit-City-Builder](https://github.com/KenneyNL/Starter-Kit-City-Builder/tree/4535092b740b378b700efd9df9e27a631815b84a) |
+| Robot Platformer 3D | [Godot Engine contributors](https://godotengine.org) | MIT | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/platformer) |
+| Truck Town | [Godot Engine contributors](https://godotengine.org) | MIT (code); ambient sounds credited in LICENSE.txt | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/truck_town) |
+| Voxel World | [Godot Engine contributors](https://godotengine.org) | MIT (code), CC BY-SA 3.0 (block textures from Minetest Game) | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/voxel) |
 
 Each game's folder keeps its original license file. The "Original source" link points to the exact version that was copied.
 
@@ -114,6 +121,7 @@ The games are unchanged, except for small fixes so they work inside GN 2.0:
 - Untrusted's soundtrack is too large to copy (about 160 MB), so its music streams from the original repo.
 - Unused files are left out (build tools, packaged downloads, `node_modules`, design files).
 - The raylib games' pages are renamed to `index.html`, and their debug output box is hidden with one added style rule.
+- The 3D Godot games (in `games/godot/`) are exported for the web with Godot 4.6.2 (single-threaded, so no special server headers are needed), using `tools/godot_web_export_presets.cfg`. They share one copy of the engine, stored gzipped in `games/_godot/4.6.2/` to stay under jsDelivr's 20 MB file limit; a small script added to each `index.html` (`tools/godot_web_post.py`) unpacks it in the browser.
 - WASM-4 carts are bundled, unchanged, with the WASM-4 web player into one `index.html` (`w4 bundle`).
 
 ## Licenses to keep in mind

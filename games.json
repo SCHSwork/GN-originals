@@ -13274,5 +13274,130 @@
   "sourceCommit": "d53d47a7cde7f50089e51cac123b9adec1e0e341",
   "description": "A retro platformer: explore a big connected world and collect power-ups to reach new areas.",
   "licenseFile": "games/go-inovation/LICENSE.txt"
+ },
+ {
+  "id": 100982,
+  "name": "3D Platformer (Kenney)",
+  "author": "Kenney",
+  "authorLink": "https://kenney.nl",
+  "path": "games/godot/kenney-3d-platformer/index.html",
+  "cover": "covers/godot-kenney-3d-platformer.jpg",
+  "special": [
+   "3d",
+   "platformer",
+   "adventure"
+  ],
+  "license": "MIT (code), CC0 (art and sound)",
+  "source": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/tree/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+  "sourceCommit": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+  "description": "Run, double-jump and collect coins across floating platforms in this colorful 3D platformer.",
+  "licenseFile": "games/godot/kenney-3d-platformer/LICENSE.txt"
+ },
+ {
+  "id": 100983,
+  "name": "Racing (Kenney)",
+  "author": "Kenney",
+  "authorLink": "https://kenney.nl",
+  "path": "games/godot/kenney-racing/index.html",
+  "cover": "covers/godot-kenney-racing.jpg",
+  "special": [
+   "3d",
+   "racing"
+  ],
+  "license": "MIT (code), CC0 (art and sound)",
+  "source": "https://github.com/KenneyNL/Starter-Kit-Racing/tree/2f2e5f2646dda89cb21d4e8539bab60c6e955dc8",
+  "sourceCommit": "2f2e5f2646dda89cb21d4e8539bab60c6e955dc8",
+  "description": "Drift a little car around a 3D race track.",
+  "licenseFile": "games/godot/kenney-racing/LICENSE.txt"
+ },
+ {
+  "id": 100984,
+  "name": "Blaster Arena (Kenney FPS)",
+  "author": "Kenney",
+  "authorLink": "https://kenney.nl",
+  "path": "games/godot/kenney-fps/index.html",
+  "cover": "covers/godot-kenney-fps.jpg",
+  "special": [
+   "3d",
+   "shooter",
+   "action"
+  ],
+  "license": "MIT (code), CC0 (art and sound)",
+  "source": "https://github.com/KenneyNL/Starter-Kit-FPS/tree/185fd2326d74a5cf858cffc616f87cf9696f9cc0",
+  "sourceCommit": "185fd2326d74a5cf858cffc616f87cf9696f9cc0",
+  "description": "A first-person shooter: blast flying enemies on floating islands.",
+  "licenseFile": "games/godot/kenney-fps/LICENSE.txt"
+ },
+ {
+  "id": 100985,
+  "name": "City Builder (Kenney)",
+  "author": "Kenney",
+  "authorLink": "https://kenney.nl",
+  "path": "games/godot/kenney-city-builder/index.html",
+  "cover": "covers/godot-kenney-city-builder.jpg",
+  "special": [
+   "3d",
+   "sandbox",
+   "strategy"
+  ],
+  "license": "MIT (code), CC0 (art)",
+  "source": "https://github.com/KenneyNL/Starter-Kit-City-Builder/tree/4535092b740b378b700efd9df9e27a631815b84a",
+  "sourceCommit": "4535092b740b378b700efd9df9e27a631815b84a",
+  "description": "Build a little 3D city: place roads, houses and trees, then save and load your town.",
+  "licenseFile": "games/godot/kenney-city-builder/LICENSE.txt"
+ },
+ {
+  "id": 100986,
+  "name": "Robot Platformer 3D",
+  "author": "Godot Engine contributors",
+  "authorLink": "https://godotengine.org",
+  "path": "games/godot/godot-3d-platformer/index.html",
+  "cover": "covers/godot-godot-3d-platformer.jpg",
+  "special": [
+   "3d",
+   "platformer",
+   "action"
+  ],
+  "license": "MIT",
+  "source": "https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/platformer",
+  "sourceCommit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
+  "description": "Jump, shoot and collect coins as a little robot in a 3D platformer level.",
+  "licenseFile": "games/godot/godot-3d-platformer/LICENSE.txt"
+ },
+ {
+  "id": 100987,
+  "name": "Truck Town",
+  "author": "Godot Engine contributors",
+  "authorLink": "https://godotengine.org",
+  "path": "games/godot/truck-town/index.html",
+  "cover": "covers/godot-truck-town.jpg",
+  "special": [
+   "3d",
+   "racing",
+   "sandbox"
+  ],
+  "license": "MIT (code); ambient sounds credited in LICENSE.txt",
+  "source": "https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/truck_town",
+  "sourceCommit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
+  "description": "Drive trucks, a tow truck and a trailer around a little 3D town.",
+  "licenseFile": "games/godot/truck-town/LICENSE.txt"
+ },
+ {
+  "id": 100988,
+  "name": "Voxel World",
+  "author": "Godot Engine contributors",
+  "authorLink": "https://godotengine.org",
+  "path": "games/godot/voxel-world/index.html",
+  "cover": "covers/godot-voxel-world.jpg",
+  "special": [
+   "3d",
+   "sandbox",
+   "adventure"
+  ],
+  "license": "MIT (code), CC BY-SA 3.0 (block textures from Minetest Game)",
+  "source": "https://github.com/godotengine/godot-demo-projects/tree/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/voxel",
+  "sourceCommit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
+  "description": "Explore, dig and build in an endless block world.",
+  "licenseFile": "games/godot/voxel-world/LICENSE.txt"
  }
 ]
