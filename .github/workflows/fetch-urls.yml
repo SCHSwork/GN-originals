@@ -1,0 +1,24 @@
+# Downloads files into the repo and lists what's on web pages (see tools/fetch_urls.py).
+# Change tools/fetch-urls.json to run it.
+name: Fetch files
+on:
+  push:
+    branches: [main]
+    paths: ["tools/fetch-urls.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/fetch_urls.py
+      - name: Save
+        run: |
+          git add -A games covers
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898888+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Fetch files (tools/fetch-urls.json)"
+          git push

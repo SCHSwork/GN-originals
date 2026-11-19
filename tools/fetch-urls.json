@@ -1,0 +1,18 @@
+{
+ "files": [
+  {"url": "https://www.foddy.net/GIRP.swf", "to": "games/girp/GIRP.swf"},
+  {"url": "https://www.foddy.net/CLOP.swf", "to": "games/clop/CLOP.swf"},
+  {"url": "https://www.spontaneousegg.com/games/henry-stickmin/stealing-the-diamond/stealingthediamond.swf", "to": "games/stealing-the-diamond/stealingthediamond.swf"},
+  {"url": "https://www.spontaneousegg.com/games/henry-stickmin/infiltrating-the-airship/infiltratingtheairship.swf", "to": "games/infiltrating-the-airship/infiltratingtheairship.swf"}
+ ],
+ "pages": [
+  "https://www.foddy.net/GIRP.html",
+  "https://www.foddy.net/CLOP.html",
+  "https://www.spontaneousegg.com/games/henry-stickmin/stealing-the-diamond/",
+  "https://www.spontaneousegg.com/games/henry-stickmin/infiltrating-the-airship/",
+  "https://www.spontaneousegg.com/games/henry-stickmin/",
+  "https://kamizoto.newgrounds.com/games",
+  "https://www.newgrounds.com/portal/view/773132",
+  "https://kamizoto.itch.io/"
+ ]
+}
