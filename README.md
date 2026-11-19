@@ -144,6 +144,16 @@ These games are fine on GN 2.0 because it is free and doesn't earn money (the on
 
 Games under share-alike or GPL licenses (Swap, Starship Sorades, Hextris, Clumsy Bird, Space Huggers, Bounce Back, Trimps, Onslaught Arena, Turkey Cooking Simulator, Lost Beneath the Surface, Untrusted and Infectors) must stay under those same licenses. Keep their license files with them.
 
+## Free games that aren't open source
+
+These are free games their makers put online to play for free, copied here because players asked for them. They aren't open source: all rights stay with their makers, and they're the exception to the rule in step 1 below. Remove one if its maker asks.
+
+| Game | Made by | Where it's from |
+|---|---|---|
+| No Humanity | [SweatyChair](https://sweatytian.itch.io) | [sweatytian.itch.io/no-humanity](https://sweatytian.itch.io/no-humanity) (Unity 5 web version). Its 24 MB code file is stored gzipped (`Release/newgrounds.js.gz`) to stay under jsDelivr's 20 MB limit and unpacked by `index.html`; itch.io's own script was removed. |
+
+`tools/fetch_itch.py` copies a free HTML5 game from its itch.io page: put its address and a folder name in `tools/itch-fetch.json` and push, and `.github/workflows/fetch-itch.yml` downloads it into `games/<name>/`.
+
 ## Adding a game
 
 1. Make sure the game's license allows sharing it. MIT, BSD, Apache, MPL, GPL, CC BY or CC BY-SA all do. Skip games with no license, clones of commercial games or characters, and games whose creators ask not to be embedded on other sites.

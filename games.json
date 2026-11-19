@@ -13453,5 +13453,20 @@
   "sourceCommit": "4ddb3d2a50cbf247c79cafe9e7884d7d8f99c012",
   "description": "Swap tiles to make rows of three or more in this bright match-3 puzzle.",
   "licenseFile": "games/godot/kenney-match-3/LICENSE.txt"
+ },
+ {
+  "id": 100992,
+  "name": "No Humanity",
+  "author": "SweatyChair",
+  "authorLink": "https://sweatytian.itch.io",
+  "path": "games/no-humanity/index.html",
+  "cover": "covers/no-humanity.png",
+  "special": [
+   "arcade",
+   "action"
+  ],
+  "license": "Free to play (not open source; all rights SweatyChair)",
+  "source": "https://sweatytian.itch.io/no-humanity",
+  "description": "The hardest game: dodge the lasers, missiles and everything else trying to kill you."
  }
 ]
