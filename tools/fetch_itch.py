@@ -21,6 +21,21 @@ def get(url, referer=None):
 cfg = json.load(open("tools/itch-fetch.json"))
 page_url, slug = cfg["url"], cfg["slug"]
 page = get(page_url).decode("utf8", "replace")
+
+def save_cover():
+    # The page's cover picture (og:image, attributes in either order)
+    og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
+    if not og:
+        print("No cover picture on the page"); return
+    img = html.unescape(og.group(1))
+    ext = os.path.splitext(urllib.parse.urlparse(img).path)[1].lower() or ".png"
+    os.makedirs("covers", exist_ok=True)
+    open(f"covers/{slug}{ext}", "wb").write(get(img))
+    print("Cover:", img, "->", f"covers/{slug}{ext}")
+
+# {"coverOnly": true}: just the cover, leaving a game that's already here alone
+if cfg.get("coverOnly"):
+    save_cover(); sys.exit(0)
 m = re.search(r'https?:(?:\\?/){2}html(?:-classic)?\.itch\.zone(?:\\?/)html(?:\\?/)\d+(?:\\?/)[^"\'<>\s&]*?index\.html', html.unescape(page))
 if not m:
     sys.exit("No HTML5 game found on the page")
@@ -59,11 +74,5 @@ for rel, n in sorted(got):
     print(f"  {n:>10,}  {rel}")
 print(f"{len(got)} files, {sum(n for _, n in got) / 1e6:.1f} MB")
 
-og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page)
-if og:
-    img = html.unescape(og.group(1))
-    ext = os.path.splitext(urllib.parse.urlparse(img).path)[1].lower() or ".png"
-    os.makedirs("covers", exist_ok=True)
-    open(f"covers/{slug}{ext}", "wb").write(get(img))
-    print("Cover:", img, "->", f"covers/{slug}{ext}")
+save_cover()
 open(os.path.join(out, ".itch-source.txt"), "w").write(f"{page_url}\n{start}\n")
