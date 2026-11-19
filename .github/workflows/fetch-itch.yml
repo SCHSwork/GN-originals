@@ -1,0 +1,24 @@
+# Copies a free HTML5 game from itch.io into games/<slug>/ (see tools/fetch_itch.py).
+# Change tools/itch-fetch.json to run it.
+name: Fetch itch.io game
+on:
+  push:
+    branches: [main]
+    paths: ["tools/itch-fetch.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/fetch_itch.py
+      - name: Save
+        run: |
+          git add games covers
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898888+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Fetch $(python3 -c 'import json;print(json.load(open("tools/itch-fetch.json"))["slug"])') from itch.io"
+          git push
