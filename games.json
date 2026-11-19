@@ -13468,5 +13468,82 @@
   "license": "Free to play (not open source; all rights SweatyChair)",
   "source": "https://sweatytian.itch.io/no-humanity",
   "description": "The hardest game: dodge the lasers, missiles and everything else trying to kill you."
+ },
+ {
+  "id": 100993,
+  "name": "Candy Box 2",
+  "author": "aniwey",
+  "authorLink": "https://github.com/candybox2",
+  "path": "games/candy-box-2/index.html",
+  "cover": "covers/candy-box-2.png",
+  "special": [
+   "idle",
+   "adventure"
+  ],
+  "license": "GPL-3.0 (code), CC BY-SA 3.0 (ASCII art)",
+  "licenseFile": "games/candy-box-2/candybox2_sourceCodeLicense.txt",
+  "source": "https://github.com/candybox2/candybox2.github.io/tree/35301d438aa2c1e58e8cb3ea215b0af323bddf9b",
+  "sourceCommit": "35301d438aa2c1e58e8cb3ea215b0af323bddf9b",
+  "description": "Collect candies, then trade them for a sword and set off on an ASCII-art adventure."
+ },
+ {
+  "id": 100994,
+  "name": "Antimatter Dimensions",
+  "author": "Hevipelle (IvarK) and team",
+  "authorLink": "https://github.com/IvarK",
+  "path": "games/antimatter-dimensions/index.html",
+  "cover": "covers/antimatter-dimensions.png",
+  "special": [
+   "idle"
+  ],
+  "license": "MIT",
+  "licenseFile": "games/antimatter-dimensions/LICENSE.txt",
+  "source": "https://github.com/IvarK/AntimatterDimensionsSourceCode/tree/5409e320cecef96a917cca1dfb68f1f183e499ca",
+  "sourceCommit": "5409e320cecef96a917cca1dfb68f1f183e499ca",
+  "description": "Buy antimatter dimensions that make more antimatter, then break infinity and keep going."
+ },
+ {
+  "id": 100995,
+  "name": "Candy Box!",
+  "author": "aniwey",
+  "authorLink": "https://github.com/candybox2",
+  "path": "games/candy-box/index.html",
+  "cover": "covers/candy-box.png",
+  "special": [
+   "idle"
+  ],
+  "license": "Free to play (no license; all rights aniwey)",
+  "source": "https://github.com/candybox2/candybox/tree/955eaaa3454b438874c0932f70cff22ec813d922",
+  "description": "The original: you have some candies. What will you do with them?"
+ },
+ {
+  "id": 100996,
+  "name": "Kittens Game",
+  "author": "bloodrizer (Nuclear Unicorn)",
+  "authorLink": "https://kittensgame.com",
+  "path": "games/kittens-game/index.html",
+  "cover": "covers/kittens-game.png",
+  "special": [
+   "idle",
+   "strategy"
+  ],
+  "license": "WET PAWS license (free, non-commercial; keep its links)",
+  "licenseFile": "games/kittens-game/license.txt",
+  "source": "https://github.com/kitten-science/kittensgame/tree/30231f6b3fed3d47c2a7b16297efc54f43334419",
+  "description": "Gather catnip, build a village of kittens and research your way to space."
+ },
+ {
+  "id": 100997,
+  "name": "Henry Stickmin: Infiltrating the Airship",
+  "author": "PuffballsUnited (Marcus Bromander)",
+  "authorLink": "https://www.puffballsunited.com",
+  "path": "games/infiltrating-the-airship/index.html",
+  "cover": "covers/infiltrating-the-airship.png",
+  "special": [
+   "adventure"
+  ],
+  "license": "Free to play (not open source; all rights PuffballsUnited)",
+  "source": "https://github.com/Spaghettiboi67/flash-games",
+  "description": "Pick your moves and help Henry break into the Toppat Clan's airship. Many endings, most of them bad."
  }
 ]

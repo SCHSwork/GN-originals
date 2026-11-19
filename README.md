@@ -4,7 +4,7 @@ Open-source browser games for [GN 2.0](https://github.com/SCHSwork/math). Every 
 
 GN 2.0 reads `games.json` and shows these games in its **GN Originals** row. They load through jsDelivr, GitHub and githack, like the rest of the site.
 
-## Games (83 hand-picked + 667 js13k + 120 WASM-4)
+## Games (85 hand-picked + 667 js13k + 120 WASM-4)
 
 The hundreds of tiny js13k games are listed with their credits in [JS13K-CREDITS.md](JS13K-CREDITS.md). They're in `games/js13k/`, and GN 2.0 shows them under the **js13k (tiny games)** tag.
 
@@ -15,6 +15,7 @@ The WASM-4 games (tiny retro games for the WASM-4 fantasy console) are listed wi
 | 2048 | [Gabriele Cirulli](https://github.com/gabrielecirulli) | MIT | [gabrielecirulli/2048](https://github.com/gabrielecirulli/2048/tree/478b6ec346e3787f589e4af751378d06ded4cbbc) |
 | A Dark Room | [Doublespeak Games](https://github.com/doublespeakgames) | MPL-2.0 | [doublespeakgames/adarkroom](https://github.com/doublespeakgames/adarkroom/tree/1fada4620b6c66bd07bf15a3f1eb8223df8bc1d7) |
 | Alien Invasion | [Pascal Rettig (Cykod)](https://github.com/cykod) | MIT | [cykod/AlienInvasion](https://github.com/cykod/AlienInvasion/tree/d208e3c803c826999aa0592993c3c934dfcc5613) |
+| Antimatter Dimensions | [Hevipelle (IvarK) and team](https://github.com/IvarK) | MIT | [IvarK/AntimatterDimensionsSourceCode](https://github.com/IvarK/AntimatterDimensionsSourceCode/tree/5409e320cecef96a917cca1dfb68f1f183e499ca) |
 | Astray | [Rye Terrell](https://github.com/wwwtyro) | Unlicense (public domain) | [wwwtyro/Astray](https://github.com/wwwtyro/Astray/tree/d3c4f61f2cbbe35752fbfa205f85a41d7f9fe0f0) |
 | Avabranch | [Zoli Kahan (Zolmeister)](https://github.com/Zolmeister) | MIT | [Zolmeister/avabranch](https://github.com/Zolmeister/avabranch/tree/4ab326b4a24d796328963da35c0d8d193d728496) |
 | Beatrix | [Cong Xu](https://github.com/cxong) | MIT | [cxong/Beatrix](https://github.com/cxong/Beatrix/tree/059b74a3e9d9ec2bffee0a72ba8a53be107fe8b3) |
@@ -22,6 +23,7 @@ The WASM-4 games (tiny retro games for the WASM-4 fantasy console) are listed wi
 | Bounce Back | [Frank Force](https://github.com/KilledByAPixel) | GPL-3.0 | [KilledByAPixel/BounceBack](https://github.com/KilledByAPixel/BounceBack/tree/395fd046338e6c5d5840d10e7fbd74132f90b8f6) |
 | Brick Breaker | [Jake Gordon](https://github.com/jakesgordon) | MIT | [jakesgordon/javascript-breakout](https://github.com/jakesgordon/javascript-breakout/tree/eed59e2affa9423b93d2ac8ff93061bb88b33284) |
 | Bubble Shooter | [Rembound](https://github.com/rembound) | MIT | [rembound/Bubble-Shooter-HTML5](https://github.com/rembound/Bubble-Shooter-HTML5/tree/2e62806ef5d7471f77566bc1cf6f2ac17a584c4d) |
+| Candy Box 2 | [aniwey](https://github.com/candybox2) | GPL-3.0 (code), CC BY-SA 3.0 (ASCII art) | [candybox2/candybox2.github.io](https://github.com/candybox2/candybox2.github.io/tree/35301d438aa2c1e58e8cb3ea215b0af323bddf9b) |
 | Captain Rogers | [Enclave Games](https://github.com/EnclaveGames) | CC BY-NC 4.0 | [EnclaveGames/Captain-Rogers](https://github.com/EnclaveGames/Captain-Rogers/tree/5b4336d66828e5688b3bffbc4c4aa8af04598583) |
 | Clumsy Bird | [Ellison Leão](https://github.com/ellisonleao) | GPL-3.0 | [ellisonleao/clumsy-bird](https://github.com/ellisonleao/clumsy-bird/tree/fae3d487d5102af29fb3f78431cbd45e9b83aed3) |
 | Coil | [Hakim El Hattab](https://github.com/hakimel) | MIT | [leereilly/Coil](https://github.com/leereilly/Coil/tree/ea6fd3afae10a6d8a53b07e82be4211619206ede) |
@@ -116,6 +118,7 @@ The games are unchanged, except for small fixes so they work inside GN 2.0:
 - Links that would have sent the whole site to another page (creator logos, credits) now open in a new tab.
 - A few file paths that assumed the game was at the root of a website now point to the game's own folder (A Dark Room, Astray, Avabranch, The House, EKG Runner).
 - Tower Building's "play again" button restarts the game in the player instead of reloading the page.
+- Antimatter Dimensions is built from its source with `npm run build:release` (Vue CLI), without source maps; its Google Analytics is switched off (`enabled: false` in `js/app.*.js`). Candy Box 2 is compiled from its TypeScript the way its own deploy workflow does (TypeScript 1.7.5, then terser).
 - Removed third-party scripts that loaded from outside sites: Hextris's remote `a.js`, the Clay.io SDK in Zop and Parity, and the Facebook SDK in Parity.
 - Libraries that came from outside sites are copied into the game's folder instead: jQuery (MIT) for Untrusted and I Spy a Ghost, CreateJS (MIT) for Turkey Cooking Simulator, and jQuery, AngularJS, Bootstrap and Font Awesome (all MIT/OFL) for Particle Clicker.
 - Emberwind's uncompressed `.wav` audio is left out; the game uses its `.mp3`/`.m4a` copies.
@@ -142,7 +145,7 @@ Five js13k games are also CC BY-NC-SA; JS13K-CREDITS.md lists their licenses. Al
 
 These games are fine on GN 2.0 because it is free and doesn't earn money (the only ads are inside html5games.com partner games, which GN 2.0 doesn't get paid for). If the site ever earns money from ads or charges money, remove them.
 
-Games under share-alike or GPL licenses (Swap, Starship Sorades, Hextris, Clumsy Bird, Space Huggers, Bounce Back, Trimps, Onslaught Arena, Turkey Cooking Simulator, Lost Beneath the Surface, Untrusted and Infectors) must stay under those same licenses. Keep their license files with them.
+Games under share-alike or GPL licenses (Candy Box 2, Swap, Starship Sorades, Hextris, Clumsy Bird, Space Huggers, Bounce Back, Trimps, Onslaught Arena, Turkey Cooking Simulator, Lost Beneath the Surface, Untrusted and Infectors) must stay under those same licenses. Keep their license files with them.
 
 ## Free games that aren't open source
 
@@ -151,6 +154,9 @@ These are free games their makers put online to play for free, copied here becau
 | Game | Made by | Where it's from |
 |---|---|---|
 | No Humanity | [SweatyChair](https://sweatytian.itch.io) | [sweatytian.itch.io/no-humanity](https://sweatytian.itch.io/no-humanity) (Unity 5 web version). Its 24 MB code file is stored gzipped (`Release/newgrounds.js.gz`) to stay under jsDelivr's 20 MB limit and unpacked by `index.html`; itch.io's own script was removed. |
+| Candy Box! | [aniwey](https://github.com/candybox2) | [candybox2/candybox](https://github.com/candybox2/candybox/tree/955eaaa3454b438874c0932f70cff22ec813d922). No license file, but made free to play online by its creator. |
+| Kittens Game | [bloodrizer (Nuclear Unicorn)](https://kittensgame.com) | [kitten-science/kittensgame](https://github.com/kitten-science/kittensgame/tree/30231f6b3fed3d47c2a7b16297efc54f43334419). Its WET PAWS license (`license.txt`) allows hosting it as long as the game keeps all its links, not for money. Google Analytics was removed from `index.html`. |
+| Henry Stickmin: Infiltrating the Airship | [PuffballsUnited](https://www.puffballsunited.com) | Flash game, copied from [Spaghettiboi67/flash-games](https://github.com/Spaghettiboi67/flash-games) and played with Ruffle. It's 29.8 MB, so it's stored in two pieces (`.part0`, `.part1`) that `index.html` joins. |
 
 `tools/fetch_itch.py` copies a free HTML5 game from its itch.io page: put its address and a folder name in `tools/itch-fetch.json` and push, and `.github/workflows/fetch-itch.yml` downloads it into `games/<name>/`.
 

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Henry Stickmin: Infiltrating the Airship</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #game { width: 100%; height: 100%; }
+  #game ruffle-player, #game ruffle-embed { width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+<div id="game"></div>
+<!-- Henry Stickmin: Infiltrating the Airship by PuffballsUnited (Marcus Bromander). Flash game, played with Ruffle (ruffle.rs). Stored in two pieces (over 20 MB). -->
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.RufflePlayer.config = { autoplay: "on", unmuteOverlay: "hidden", letterbox: "on", splashScreen: false, contextMenu: "rightClickOnly" };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.js"></script>
+<script>
+(async function () {
+  var player = window.RufflePlayer.newest().createPlayer();
+  document.getElementById("game").appendChild(player);
+  var parts = ["infiltratingtheairship.swf.part0", "infiltratingtheairship.swf.part1"];
+  if (!parts.length) { player.load({ url: "infiltratingtheairship.swf" }); return; }
+  // Over jsDelivr's 20 MB file limit, so it's stored in pieces: join them
+  var bufs = await Promise.all(parts.map(function (p) { return fetch(p).then(function (r) { if (!r.ok) throw new Error(p + ": " + r.status); return r.arrayBuffer(); }); }));
+  var data = new Uint8Array(bufs.reduce(function (n, b) { return n + b.byteLength; }, 0)), at = 0;
+  bufs.forEach(function (b) { data.set(new Uint8Array(b), at); at += b.byteLength; });
+  player.load({ data: data, swfFileName: "infiltratingtheairship.swf" });
+})();
+</script>
+</body>
+</html>
