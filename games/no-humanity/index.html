@@ -100,19 +100,67 @@
   };
   Module.setStatus('Downloading (0.0/1)');
 </script>
+<script>
+// GN Originals: every place this game's files can come from, tried in order.
+// If a file fails (blocked, cut off, or an error page), the next one is used.
+window.GN_SOURCES = (function () {
+  var p = "SCHSwork/GN-originals", d = "games/no-humanity/";
+  return ["",
+    "https://cdn.jsdelivr.net/gh/" + p + "@main/" + d,
+    "https://raw.githubusercontent.com/" + p + "/main/" + d,
+    "https://rawcdn.githack.com/" + p + "/main/" + d,
+    "https://fastly.jsdelivr.net/gh/" + p + "@main/" + d,
+    "https://data.learnresearch.org/gh/" + p + "@main/" + d];
+})();
+window.GN_FAIL = function (what) {
+  Module.setStatus("Couldn't download " + what + ". Check your connection and reload.");
+};
+</script>
 <script src="Release/UnityConfig.js"></script>
 <script src="Release/fileloader.js"></script>
 <script>
 // GN Originals: the game's code (newgrounds.js, 24 MB) is stored gzipped to stay
 // under jsDelivr's 20 MB file limit, and unpacked here before it runs.
+// The game must not start without UnityConfig.js and fileloader.js (the data
+// download): without its data it crashes with "abort(135)" on the first click.
 (async function () {
-  var res = await fetch("Release/newgrounds.js.gz");
-  var stream = res.body.pipeThrough(new DecompressionStream("gzip"));
-  var code = await new Response(stream).text();
-  var script = document.createElement("script");
-  script.src = URL.createObjectURL(new Blob([code], { type: "text/javascript" }));
-  script.onload = function () { URL.revokeObjectURL(script.src); };
-  document.body.appendChild(script);
+  async function get(path, check) {
+    for (var i = 0; i < GN_SOURCES.length; i++) {
+      try {
+        var res = await fetch(GN_SOURCES[i] + path);
+        if (!res.ok) continue;
+        var out = await check(res);
+        if (out != null) return out;
+      } catch (e) {}
+    }
+    return null;
+  }
+  async function runScript(code) {
+    await new Promise(function (done) {
+      var s = document.createElement("script");
+      s.src = URL.createObjectURL(new Blob([code], { type: "text/javascript" }));
+      s.onload = s.onerror = function () { URL.revokeObjectURL(s.src); done(); };
+      document.body.appendChild(s);
+    });
+  }
+  function jsText(res) {
+    return res.text().then(function (t) { return /^\s*</.test(t) ? null : t; });
+  }
+  if (typeof window.SetFullscreen !== "function") {
+    var cfg = await get("Release/UnityConfig.js", jsText);
+    if (cfg) await runScript(cfg);
+  }
+  if (!Module.expectedDataFileDownloads) {
+    var fl = await get("Release/fileloader.js", jsText);
+    if (fl) await runScript(fl);
+    if (!Module.expectedDataFileDownloads) return GN_FAIL("the game's loader");
+  }
+  var code = await get("Release/newgrounds.js.gz", async function (res) {
+    var t = await new Response(res.body.pipeThrough(new DecompressionStream("gzip"))).text();
+    return t.length > 1000000 ? t : null;
+  });
+  if (!code) return GN_FAIL("the game's code");
+  await runScript(code);
 })();
 </script>
   </body>

@@ -31,6 +31,8 @@ Module.expectedDataFileDownloads++;
   
     function fetchRemotePackage(packageName, packageSize, callback, errback) {
       var xhr = new XMLHttpRequest();
+      xhr.gnAttempt = fetchRemotePackage.gnNext || 0;
+      fetchRemotePackage.gnNext = 0;
       xhr.open('GET', packageName, true);
       xhr.responseType = 'arraybuffer';
       xhr.onprogress = function(event) {
@@ -63,10 +65,29 @@ Module.expectedDataFileDownloads++;
           if (Module['setStatus']) Module['setStatus']('Downloading data...');
         }
       };
+      // GN Originals: only hand the game a complete data file. A failed, cut-off
+      // or error-page download used to start the game without its data, which
+      // crashed with "abort(135)". Try the next source instead.
+      var tries = (typeof window === 'object' && window.GN_SOURCES) || [''];
+      var attempt = xhr.gnAttempt || 0;
+      function next() {
+        if (attempt + 1 < tries.length) {
+          var again = fetchRemotePackage;
+          var url = tries[attempt + 1] + 'Release/' + REMOTE_PACKAGE_BASE;
+          again.gnNext = attempt + 1;
+          again(url, packageSize, callback, errback);
+        } else if (typeof window === 'object' && window.GN_FAIL) {
+          window.GN_FAIL("the game's data");
+        } else {
+          errback(new Error('NetworkError for: ' + packageName));
+        }
+      }
       xhr.onload = function(event) {
         var packageData = xhr.response;
+        if (xhr.status !== 200 || !packageData || packageData.byteLength !== packageSize) return next();
         callback(packageData);
       };
+      xhr.onerror = xhr.ontimeout = next;
       xhr.send(null);
     };
 
